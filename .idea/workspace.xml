@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6811ed1e-5932-4d24-889e-866ab4678106" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/Company.java" afterPath="$PROJECT_DIR$/src/lab05/Company.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/Developer.java" afterPath="$PROJECT_DIR$/src/lab05/Developer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/TeamManager.java" afterPath="$PROJECT_DIR$/src/lab05/TeamManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NewCompany.iws" />
@@ -549,17 +546,21 @@
       <changelist id="6811ed1e-5932-4d24-889e-866ab4678106" name="Default" comment="" />
       <created>1397338757508</created>
       <updated>1397338757508</updated>
-      <workItem from="1397338758906" duration="16339000" />
+      <workItem from="1397338758906" duration="16441000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1397937518616</created>
       <updated>1397937518616</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit&#10;">
+      <created>1397940280111</created>
+      <updated>1397940280111</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16339000" />
+    <option name="totallyTimeSpent" value="16441000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="157" y="49" width="1265" height="763" extended-state="0" />
