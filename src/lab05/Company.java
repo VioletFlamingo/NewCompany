@@ -22,7 +22,7 @@ public class Company implements Visitable {
     };
 
     public Iterator<Employee> iterator(Predicate<Employee> predicate) {
-
+        return null;
     }
 
     /**

@@ -14,7 +14,6 @@ public class TeamManager extends AbstractEmployee implements Manager, Iterable<E
 
     TeamManager (int newStaff, TaskDispatchStrategy strategy) {
         this.numberOfPlaces=newStaff;
-        Random rand = new Random();
         this.strategy=strategy;
     }
 
@@ -39,10 +38,15 @@ public class TeamManager extends AbstractEmployee implements Manager, Iterable<E
         return true;
     }
 
+    /*
     public void fire(int which) {
         employees[which]=employees[numberOfEmployees-1];
         employees[numberOfEmployees-1]=null;
         numberOfEmployees--;
+    }*/
+
+    public void fire(int which) {
+
     }
 
     public void assign() {
@@ -65,9 +69,8 @@ public class TeamManager extends AbstractEmployee implements Manager, Iterable<E
     public void reportWork(){
         System.out.println(this.getName() + ": "
                 + this.getWork().getWorkDone() + " hours worked as " +this.getRole());
-        for(int i=0; i<numberOfEmployees; i++) {
-            System.out.println(employees[i].getName() + ": "
-                    + employees[i].getWork().getWorkDone() + " hours worked "+employees[i].getRole());
+        for(Employee e : employees) {
+            System.out.println(e.getName() + ": " + e.getWork().getWorkDone() + " hours worked "+e.getRole());
         }
     }
 
@@ -77,8 +80,8 @@ public class TeamManager extends AbstractEmployee implements Manager, Iterable<E
 
     public void describeStaff() {
         System.out.println(this.toString());
-        for(int i=0; i<numberOfEmployees; i++) {
-            System.out.println(employees[i].toString());
+        for(Employee e : employees) {
+            System.out.println(e.toString());
         }
         System.out.print("\n");
     }

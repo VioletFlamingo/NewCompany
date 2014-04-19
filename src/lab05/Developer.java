@@ -11,4 +11,9 @@ public class Developer extends AbstractEmployee {
     public String toString () {
         return "Developer: " + name + " - " + role;
     }
+
+    @Override
+    public Salary getSalary() {
+        return null;
+    }
 }
