@@ -1,5 +1,6 @@
 package lab05;
 
+import javax.sql.rowset.Predicate;
 import java.util.AbstractCollection;
 import java.util.Collection;
 import java.util.Iterator;
@@ -7,7 +8,7 @@ import java.util.Iterator;
 /**
  * Created by Paulina on 13.04.2014.
  */
-public class Company {
+public class Company implements Visitable {
     Collection<Employee> employeeCollection = new AbstractCollection<Employee>() {
         @Override
         public Iterator<Employee> iterator() {
@@ -19,4 +20,16 @@ public class Company {
             return 0;
         }
     };
+
+    public Iterator<Employee> iterator(Predicate<Employee> predicate) {
+
+    }
+
+    /**
+     * Creates company and adds first employee
+     * @param head
+     */
+    public Company (Employee head) {
+        employeeCollection.add(head);
+    }
 }
