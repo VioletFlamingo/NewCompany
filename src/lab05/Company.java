@@ -25,10 +25,6 @@ public class Company implements Visitable {
         return null;
     }
 
-    /**
-     * Creates company and adds first employee
-     * @param head
-     */
     public Company (Employee head) {
         employeeCollection.add(head);
     }

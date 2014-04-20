@@ -4,15 +4,17 @@ public abstract class AbstractEmployee implements Employee {
     protected String name;
     protected String role;
     protected Task task;
+    protected WorkStrategy strategy;
     protected Integer hoursWorked=0;
 
     AbstractEmployee (){
 
     }
 
-    public AbstractEmployee (String name, String role) {
+    public AbstractEmployee (String name, String role, WorkStrategy strategy) {
         this.name=name;
         this.role=role;
+        this.strategy=strategy;
     }
 
     public void setName(String name) {
@@ -42,7 +44,7 @@ public abstract class AbstractEmployee implements Employee {
     }
 
     public void assign(Task task) {
-        this.hoursWorked+=this.task.getWorkToDo();
+        this.hoursWorked+=strategy.doWork(this.task.getWorkToDo());
         this.task=task;
     }
 

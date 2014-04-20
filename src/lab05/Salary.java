@@ -6,4 +6,9 @@ package lab05;
 public class Salary {
     int integerPart;
     int decimalPlace;
+
+    public Salary (int integerPart, int decimalPlace) {
+        this.decimalPlace=decimalPlace;
+        this.integerPart=integerPart;
+    }
 }
