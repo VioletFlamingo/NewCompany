@@ -13,17 +13,23 @@ public class FileBasedCompanyRepository {
     final Company company;
     final File companyID;
 
-    public FileBasedCompanyRepository() throws IOException, ClassNotFoundException {
+    public FileBasedCompanyRepository() throws IOException, ClassNotFoundException, CEOAlreadyHiredException {
         repository = getCompanyRepository();
         companyID = askForFileName();
-        company = repository.load(companyID);
+        if (companyID.exists()) {
+            company = repository.load(companyID);
+        } else {
+            company = new Company(CEO.hireCEO());
+        }
+            Administration.takeActions();
+            repository.persist(company);
     }
 
     private CompanyRepository getCompanyRepository() {
         return new CompanyRepository();
     }
 
-    private File askForFileName () {
+    public static File askForFileName () {
         System.out.println("Enter file name:");
         Scanner scanner = new Scanner(System.in);
         return new File(scanner.nextLine()+".xml");

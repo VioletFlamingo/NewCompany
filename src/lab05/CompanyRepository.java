@@ -19,7 +19,7 @@ public class CompanyRepository {
         return company;
     }
 
-    public void persist (Company company) throws IOException {
+    public void persist(Company company) throws IOException {
         ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(file));
         out.writeObject(company);
         out.close();

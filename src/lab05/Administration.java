@@ -5,13 +5,18 @@ import java.util.Scanner;
 
 public class Administration {
 
-    protected TeamManager manager;
     protected String names []= {"Adam", "Bella", "Charlie", "Donald", "Elisabeth", "Fabian", "Gabriel", "Hercules"};
     protected String surnames []= {"Anderson", "Black", "Cooper", "Duck", "Elliot", "Fast", "Green", "Hood"};
     protected String testerJobs []= {"testing software", "testing latest program"};
     protected String developerJobs []= {"developing game", "fixing bugs"};
     protected Salary managerSalary []= {new Salary (19999, 99), new Salary(10000, 0), new Salary(9500, 0)};
     protected Salary employeeSalary []= {new Salary (9999, 99), new Salary(7000, 0), new Salary(4500, 0)};
+
+
+
+    public static void takeActions() {
+
+    }
 
     /*
     Administration (int people) {

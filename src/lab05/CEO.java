@@ -13,7 +13,7 @@ public class CEO extends TeamManager{
     private static boolean CEOExists=false;
 
     private CEO(TaskDispatchStrategy strategy) {
-        super(100, strategy);
+        super(100, strategy, new Salary(50000, 0));
     }
 
     /**

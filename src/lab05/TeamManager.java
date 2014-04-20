@@ -7,14 +7,15 @@ import java.util.Random;
 
 public class TeamManager extends AbstractEmployee implements Manager, Iterable<Employee>{
     private List<Employee> employees = new ArrayList<Employee>();
-    int numberOfPlaces;
-    int numberOfEmployees=0;
+    private int numberOfPlaces;
+    private int numberOfEmployees=0;
+    private TaskDispatchStrategy strategy;
+    private Salary salary;
 
-    TaskDispatchStrategy strategy;
-
-    TeamManager (int newStaff, TaskDispatchStrategy strategy) {
+    TeamManager (int newStaff, TaskDispatchStrategy strategy, Salary salary) {
         this.numberOfPlaces=newStaff;
         this.strategy=strategy;
+        this.salary=salary;
     }
 
     public boolean canHire() {
@@ -63,13 +64,16 @@ public class TeamManager extends AbstractEmployee implements Manager, Iterable<E
 
     @Override
     public Salary getSalary() {
-        return null;
+        return salary;
     }
 
     public void reportWork(){
         System.out.println(this.getName() + ": "
                 + this.getWork().getWorkDone() + " hours worked as " +this.getRole());
         for(Employee e : employees) {
+            if (e instanceof TeamManager) {
+                ((TeamManager) e).reportWork();
+            }
             System.out.println(e.getName() + ": " + e.getWork().getWorkDone() + " hours worked "+e.getRole());
         }
     }
