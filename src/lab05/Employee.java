@@ -1,6 +1,6 @@
 package lab05;
 
-public interface Employee {
+public interface Employee extends Visitable{
     String getName();
     String getRole();
 

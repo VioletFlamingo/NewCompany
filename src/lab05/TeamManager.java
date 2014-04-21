@@ -95,9 +95,31 @@ public class TeamManager extends AbstractEmployee implements Manager, Iterable<E
         return "Manager: " + name + " role: " + role;
     }
 
+
     @Override
     public Iterator<Employee> iterator() {
-        return null;
+        Employee act = employees.????????
+        return new Iterator<Employee>() {
+            @Override
+            public boolean hasNext() {
+                return false;
+            }
+
+            @Override
+            public Employee next() {
+                return null;
+            }
+
+            @Override
+            public void remove() {
+                throw new UnsupportedOperationException();
+            }
+        }
+    }
+
+    @Override
+    public void accept(Visitor visitor) {
+
     }
 }
 

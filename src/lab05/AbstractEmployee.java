@@ -51,4 +51,10 @@ public abstract class AbstractEmployee implements Employee {
     public void setTask (Task task) {
         this.task=task;
     }
+
+    @Override
+    public void accept(Visitor visitor) {
+
+    }
+
 }
