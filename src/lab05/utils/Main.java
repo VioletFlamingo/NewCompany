@@ -1,8 +1,7 @@
-package lab05;
+package lab05.utils;
 
 import lab05.exceptions.CEOAlreadyHiredException;
 
-import java.io.File;
 import java.io.IOException;
 
 public class Main {

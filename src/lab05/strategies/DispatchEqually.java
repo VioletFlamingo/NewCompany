@@ -1,7 +1,7 @@
 package lab05.strategies;
 
-import lab05.properties.Task;
 import lab05.employees.Employee;
+import lab05.properties.Task;
 
 /**
  * Created by Paulina on 13.04.2014.
@@ -9,12 +9,12 @@ import lab05.employees.Employee;
 public class DispatchEqually implements TaskDispatchStrategy {
     @Override
     public void dispatch(Iterable<Employee> employees, Task task) {
-        int work=task.getWorkToDo();
-        int averageWork=work/size(employees);
-        work-=size(employees)*averageWork;
+        int work = task.getWorkToDo();
+        int averageWork = work / size(employees);
+        work -= size(employees) * averageWork;
         for (Employee emp : employees) {
-            if (work>0) {
-                emp.assign(new Task(averageWork+1));
+            if (work > 0) {
+                emp.assign(new Task(averageWork + 1));
                 work--;
             } else {
                 emp.assign(new Task(averageWork));
@@ -22,8 +22,8 @@ public class DispatchEqually implements TaskDispatchStrategy {
         }
     }
 
-    private int size(Iterable <Employee> employees) {
-        int size=0;
+    private int size(Iterable<Employee> employees) {
+        int size = 0;
         for (Employee ignored : employees) {
             size++;
         }

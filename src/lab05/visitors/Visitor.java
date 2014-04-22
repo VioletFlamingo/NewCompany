@@ -1,4 +1,4 @@
-package lab05;
+package lab05.visitors;
 
 import lab05.employees.Employee;
 import lab05.employees.TeamManager;
@@ -10,5 +10,6 @@ import java.io.Serializable;
  */
 public interface Visitor extends Serializable {
     void visit(Employee employee);
+
     void visit(TeamManager manager);
 }

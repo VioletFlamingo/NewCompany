@@ -5,8 +5,9 @@ package lab05.employees;
  */
 
 import lab05.exceptions.CEOAlreadyHiredException;
-import lab05.strategies.DispatchEqually;
 import lab05.properties.Salary;
+import lab05.strategies.DispatchEqually;
+import lab05.strategies.DoAllWork;
 import lab05.strategies.TaskDispatchStrategy;
 
 /**
@@ -18,11 +19,12 @@ public class CEO extends TeamManager {
     private static CEO ceo;
 
     private CEO(TaskDispatchStrategy strategy) {
-        super(100, strategy, new Salary(50000, 0));
+        super("Bill Gates", "Manager of whole world", new Salary(50000, 0), new DoAllWork(), 100, strategy);
     }
 
     /**
      * If CEO is not already hired returns CEO.
+     *
      * @return CEO
      * @throws lab05.exceptions.CEOAlreadyHiredException
      */

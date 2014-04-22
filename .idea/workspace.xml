@@ -2,23 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6811ed1e-5932-4d24-889e-866ab4678106" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/Report.java" afterPath="$PROJECT_DIR$/src/lab05/properties/Report.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/Administration.java" afterPath="$PROJECT_DIR$/src/lab05/utils/Administration.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/Company.java" afterPath="$PROJECT_DIR$/src/lab05/utils/Company.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/CompanyRepository.java" afterPath="$PROJECT_DIR$/src/lab05/utils/CompanyRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/FileBasedCompanyRepository.java" afterPath="$PROJECT_DIR$/src/lab05/utils/FileBasedCompanyRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/Main.java" afterPath="$PROJECT_DIR$/src/lab05/utils/Main.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/Predicate.java" afterPath="$PROJECT_DIR$/src/lab05/utils/Predicate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/SalaryReportVisitor.java" afterPath="$PROJECT_DIR$/src/lab05/visitors/SalaryReportVisitor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/Visitable.java" afterPath="$PROJECT_DIR$/src/lab05/visitors/Visitable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/Visitor.java" afterPath="$PROJECT_DIR$/src/lab05/visitors/Visitor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/employees/AbstractEmployee.java" afterPath="$PROJECT_DIR$/src/lab05/employees/AbstractEmployee.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/employees/CEO.java" afterPath="$PROJECT_DIR$/src/lab05/employees/CEO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/Company.java" afterPath="$PROJECT_DIR$/src/lab05/Company.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/CompanyRepository.java" afterPath="$PROJECT_DIR$/src/lab05/CompanyRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/exceptions/CEOAlreadyHiredException.java" afterPath="$PROJECT_DIR$/src/lab05/exceptions/CEOAlreadyHiredException.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/employees/Developer.java" afterPath="$PROJECT_DIR$/src/lab05/employees/Developer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/strategies/DispatchEqually.java" afterPath="$PROJECT_DIR$/src/lab05/strategies/DispatchEqually.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/strategies/DispatchTaskByRole.java" afterPath="$PROJECT_DIR$/src/lab05/strategies/DispatchTaskByRole.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/strategies/DoAlmostAllWork.java" afterPath="$PROJECT_DIR$/src/lab05/strategies/DoAlmostAllWork.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/employees/Employee.java" afterPath="$PROJECT_DIR$/src/lab05/employees/Employee.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/FileBasedCompanyRepository.java" afterPath="$PROJECT_DIR$/src/lab05/FileBasedCompanyRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/Main.java" afterPath="$PROJECT_DIR$/src/lab05/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/Predicate.java" afterPath="$PROJECT_DIR$/src/lab05/Predicate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/employees/Manager.java" afterPath="$PROJECT_DIR$/src/lab05/employees/Manager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/properties/Report.java" afterPath="$PROJECT_DIR$/src/lab05/properties/Report.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/properties/Salary.java" afterPath="$PROJECT_DIR$/src/lab05/properties/Salary.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/properties/Task.java" afterPath="$PROJECT_DIR$/src/lab05/properties/Task.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/strategies/TaskDispatchStrategy.java" afterPath="$PROJECT_DIR$/src/lab05/strategies/TaskDispatchStrategy.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/employees/TeamManager.java" afterPath="$PROJECT_DIR$/src/lab05/employees/TeamManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/employees/Tester.java" afterPath="$PROJECT_DIR$/src/lab05/employees/Tester.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/Visitable.java" afterPath="$PROJECT_DIR$/src/lab05/Visitable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/Visitor.java" afterPath="$PROJECT_DIR$/src/lab05/Visitor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/strategies/WorkStrategy.java" afterPath="$PROJECT_DIR$/src/lab05/strategies/WorkStrategy.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -84,46 +90,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TaskDispatchStrategy.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab05/strategies/TaskDispatchStrategy.java">
+      <file leaf-file-name="TeamManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab05/employees/TeamManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="58" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WorkStrategy.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab05/strategies/WorkStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="50" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Report.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab05/properties/Report.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="43" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Predicate.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab05/Predicate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="51" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Visitor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab05/Visitor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="45" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+            <state line="99" column="0" selection-start="2730" selection-end="2730" vertical-scroll-proportion="-5.1153846" vertical-offset="1292" max-vertical-offset="1875">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,48 +101,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Visitable.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab05/Visitable.java">
+      <file leaf-file-name="Company.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lab05/utils/Company.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="47" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pizza.ser" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pizza.ser">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="16" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab05/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="1" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="495">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileBasedCompanyRepository.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab05/FileBasedCompanyRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="49" selection-start="837" selection-end="837" vertical-scroll-proportion="0.0" vertical-offset="141" max-vertical-offset="690">
+            <state line="120" column="0" selection-start="3109" selection-end="3155" vertical-scroll-proportion="1.849315" vertical-offset="0" max-vertical-offset="1905">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="class#CompanyIterator#0;class#Company#0" expanded="false" />
+                <element signature="e#2187#2197#0" expanded="true" />
+                <element signature="e#3007#3017#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CEO.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lab05/employees/CEO.java">
+      <file leaf-file-name="Administration.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab05/utils/Administration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="23" selection-start="794" selection-end="794" vertical-scroll-proportion="0.748954" vertical-offset="107" max-vertical-offset="630">
+            <state line="50" column="0" selection-start="1880" selection-end="1880" vertical-scroll-proportion="0.0" vertical-offset="608" max-vertical-offset="2130">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -217,10 +163,7 @@
         <option value="$PROJECT_DIR$/src/lab05/SalaryReportVisitor.java" />
         <option value="$PROJECT_DIR$/src/lab05/Tmp.txt" />
         <option value="$PROJECT_DIR$/src/lab05/ManagerPredicate.java" />
-        <option value="$PROJECT_DIR$/src/lab05/employees/Tester.java" />
-        <option value="$PROJECT_DIR$/src/lab05/employees/Developer.java" />
         <option value="$PROJECT_DIR$/src/lab05/Main.java" />
-        <option value="$PROJECT_DIR$/src/lab05/employees/TeamManager.java" />
         <option value="$PROJECT_DIR$/src/lab05/FileBasedCompanyRepository.java" />
         <option value="$PROJECT_DIR$/src/lab05/CompanyRepository.java" />
         <option value="$PROJECT_DIR$/src/lab05/Company.java" />
@@ -234,14 +177,22 @@
         <option value="$PROJECT_DIR$/src/lab05/Visitor.java" />
         <option value="$PROJECT_DIR$/src/lab05/Visitable.java" />
         <option value="$PROJECT_DIR$/pizza.ser" />
+        <option value="$PROJECT_DIR$/src/lab05/utils/CompanyRepository.java" />
+        <option value="$PROJECT_DIR$/src/lab05/utils/FileBasedCompanyRepository.java" />
+        <option value="$PROJECT_DIR$/src/lab05/employees/AbstractEmployee.java" />
+        <option value="$PROJECT_DIR$/src/lab05/employees/Developer.java" />
+        <option value="$PROJECT_DIR$/src/lab05/employees/Tester.java" />
+        <option value="$PROJECT_DIR$/src/lab05/utils/Administration.java" />
         <option value="$PROJECT_DIR$/src/lab05/employees/CEO.java" />
+        <option value="$PROJECT_DIR$/src/lab05/employees/TeamManager.java" />
+        <option value="$PROJECT_DIR$/src/lab05/utils/Company.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="77" />
     <option name="y" value="24" />
-    <option name="width" value="1265" />
+    <option name="width" value="1344" />
     <option name="height" value="827" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -306,6 +257,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lab05" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="visitors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab05" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -420,6 +397,7 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
+    <property name="LayoutCode.rearrangeEntries" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -441,7 +419,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="lab05.Main" />
+      <option name="MAIN_CLASS_NAME" value="lab05.utils.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -452,7 +430,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="NewCompany" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -703,7 +687,7 @@
       <changelist id="6811ed1e-5932-4d24-889e-866ab4678106" name="Default" comment="" />
       <created>1397338757508</created>
       <updated>1397338757508</updated>
-      <workItem from="1397338758906" duration="45837000" />
+      <workItem from="1397338758906" duration="53925000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1397937518616</created>
@@ -737,42 +721,46 @@
       <created>1398175052663</created>
       <updated>1398175052663</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="prefinal commit??? ;_;'.">
+      <created>1398187633942</created>
+      <updated>1398187633942</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45837000" />
+    <option name="totallyTimeSpent" value="53925000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="77" y="24" width="1265" height="827" extended-state="0" />
-    <editor active="true" />
+    <frame x="77" y="24" width="1344" height="827" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39973614" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299712" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20474309" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30211082" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19270833" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39973614" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30211082" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -788,7 +776,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Initial commit&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit&#10;" />
+    <MESSAGE value="prefinal commit??? ;_;'." />
+    <option name="LAST_COMMIT_MESSAGE" value="prefinal commit??? ;_;'." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -798,77 +787,23 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lab05/exceptions/CEOAlreadyHiredException.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/io/ObjectOutputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="40" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+        <state line="1430" column="0" selection-start="55502" selection-end="55502" vertical-scroll-proportion="0.0" vertical-offset="20560" max-vertical-offset="36585">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/Administration.java">
+    <entry file="file://$PROJECT_DIR$/pizza.ser">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1965">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1398166463000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/strategies/DoAllWork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+        <state line="3" column="16" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/strategies/DoAlmostAllWork.java">
+    <entry file="file://$PROJECT_DIR$/src/lab05/employees/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="46" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/strategies/DispatchTaskByRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="9" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="930">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/SalaryReportVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="14" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/strategies/DispatchEqually.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="570">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/employees/AbstractEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/Tmp.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="9" selection-start="585" selection-end="1446" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1050">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/ManagerPredicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="21" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+        <state line="13" column="0" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -877,77 +812,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab05/employees/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+        <state line="4" column="17" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/employees/Tester.java">
+    <entry file="file://$PROJECT_DIR$/src/lab05/exceptions/CEOAlreadyHiredException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="57" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+        <state line="6" column="39" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/employees/Developer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="60" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/employees/TeamManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="2310">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2157#2158#0" expanded="true" />
-            <element signature="e#2186#2187#0" expanded="true" />
-            <element signature="e#2675#2676#0" expanded="true" />
-            <element signature="e#2720#2721#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="114" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1365">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#CompanyIterator#0;class#Company#0" expanded="false" />
-            <element signature="e#2088#2098#0" expanded="true" />
-            <element signature="class#PredicateCompanyIterator#0;class#Company#0" expanded="false" />
-            <element signature="e#2908#2918#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/CompanyRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="495">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/io/ObjectOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1430" column="0" selection-start="55502" selection-end="55502" vertical-scroll-proportion="0.0" vertical-offset="20560" max-vertical-offset="36585">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/employees/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="27" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab05/properties/Salary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="43" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="630">
+        <state line="4" column="0" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
@@ -955,6 +834,34 @@
     <entry file="file://$PROJECT_DIR$/src/lab05/properties/Task.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="42" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab05/strategies/DispatchEqually.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab05/strategies/DispatchTaskByRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab05/strategies/DoAllWork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="3" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab05/strategies/DoAlmostAllWork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="46" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
           <folding />
         </state>
       </provider>
@@ -973,53 +880,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/properties/Report.java">
+    <entry file="file://$PROJECT_DIR$/src/lab05/utils/CompanyRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="43" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+        <state line="7" column="32" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/Predicate.java">
+    <entry file="file://$PROJECT_DIR$/src/lab05/utils/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="51" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+        <state line="19" column="39" selection-start="578" selection-end="578" vertical-scroll-proportion="0.55737704" vertical-offset="17" max-vertical-offset="495">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/Visitor.java">
+    <entry file="file://$PROJECT_DIR$/src/lab05/utils/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="45" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+        <state line="7" column="50" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab05/visitors/SalaryReportVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="18" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab05/visitors/Visitable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="47" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab05/visitors/Visitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="45" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/Visitable.java">
+    <entry file="file://$PROJECT_DIR$/src/lab05/employees/Developer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="47" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+        <state line="7" column="62" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab05/employees/Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="34" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab05/employees/AbstractEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="21" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.3208431" vertical-offset="433" max-vertical-offset="930">
+          <folding>
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab05/properties/Report.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pizza.ser">
+    <entry file="file://$PROJECT_DIR$/src/lab05/utils/FileBasedCompanyRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="16" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="1" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/FileBasedCompanyRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="49" selection-start="837" selection-end="837" vertical-scroll-proportion="0.0" vertical-offset="141" max-vertical-offset="690">
+        <state line="28" column="42" selection-start="855" selection-end="855" vertical-scroll-proportion="0.9836066" vertical-offset="0" max-vertical-offset="720">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1028,9 +970,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab05/employees/CEO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="23" selection-start="794" selection-end="794" vertical-scroll-proportion="0.748954" vertical-offset="107" max-vertical-offset="630">
+        <state line="21" column="106" selection-start="570" selection-end="570" vertical-scroll-proportion="0.73770493" vertical-offset="0" max-vertical-offset="660">
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/piarapa.ser">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="488">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab05/employees/TeamManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="0" selection-start="2730" selection-end="2730" vertical-scroll-proportion="-5.1153846" vertical-offset="1292" max-vertical-offset="1875">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab05/utils/Administration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="0" selection-start="1880" selection-end="1880" vertical-scroll-proportion="0.0" vertical-offset="608" max-vertical-offset="2130">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab05/utils/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="0" selection-start="3109" selection-end="3155" vertical-scroll-proportion="1.849315" vertical-offset="0" max-vertical-offset="1905">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#CompanyIterator#0;class#Company#0" expanded="false" />
+            <element signature="e#2187#2197#0" expanded="true" />
+            <element signature="e#3007#3017#0" expanded="true" />
           </folding>
         </state>
       </provider>

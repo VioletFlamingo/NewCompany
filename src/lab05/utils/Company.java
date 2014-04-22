@@ -1,10 +1,12 @@
-package lab05;
+package lab05.utils;
 
+import com.sun.istack.internal.NotNull;
 import lab05.employees.CEO;
 import lab05.employees.Employee;
 import lab05.employees.Manager;
 import lab05.employees.TeamManager;
-import lab05.properties.Task;
+import lab05.visitors.Visitable;
+import lab05.visitors.Visitor;
 
 import java.io.Serializable;
 import java.util.*;
@@ -34,33 +36,33 @@ public class Company extends AbstractCollection<Employee> implements Visitable, 
     }
 
 
-    /**
-     *
-     * @param employee
-     * @return
-     */
+
     @Override
     public boolean add(Employee employee) {
-        Iterator<Employee> it = this.iterator(new Predicate<Employee>() {
-            @Override
-            public boolean apply(Employee element) {
-                if (ableToHireAndNotCEO(element)) {
-                    return true;
-                }
-                return false;
-            }
 
-            private boolean ableToHireAndNotCEO(Employee element) {
-                return (element instanceof Manager)&&!(element instanceof CEO)&&((Manager) element).canHire();
-            }
-        });
-
-        while (it.hasNext()) {
-            ((Manager)it.next()).hire(employee);
+        if(employee instanceof CEO){
             employeeList.add(employee);
             return true;
         }
-        if (employee instanceof Manager) {
+
+        Iterator<Employee> it = this.iterator(new Predicate<Employee>() {
+            @Override
+            public boolean apply(Employee element) {
+                return ableToHireAndNotCEO(element);
+            }
+
+            private boolean ableToHireAndNotCEO(Employee element) {
+                return (element instanceof Manager) && !(element instanceof CEO) && ((Manager) element).canHire();
+            }
+        });
+
+        if (it.hasNext()) {
+            ((Manager) it.next()).hire(employee);
+            employeeList.add(employee);
+            return true;
+        }
+
+        if (employee instanceof Manager && !(employee instanceof CEO)) {
             companyCEO.hire(employee);
             employeeList.add(employee);
             return true;
@@ -69,8 +71,8 @@ public class Company extends AbstractCollection<Employee> implements Visitable, 
     }
 
 
-
     @Override
+    @NotNull
     public Iterator<Employee> iterator() {
         return new CompanyIterator();
     }
@@ -127,7 +129,7 @@ public class Company extends AbstractCollection<Employee> implements Visitable, 
         }
 
         PredicateCompanyIterator(Predicate<Employee> predicate) {
-            this.predicate=predicate;
+            this.predicate = predicate;
             addToStack(companyCEO);
         }
 

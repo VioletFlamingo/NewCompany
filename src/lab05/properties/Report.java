@@ -2,7 +2,7 @@ package lab05.properties;
 
 import java.io.Serializable;
 
-public class Report implements Serializable{
+public class Report implements Serializable {
 
     private final int workDone;
 
@@ -11,7 +11,7 @@ public class Report implements Serializable{
     }
 
     public int getWorkDone() {
-       return workDone;
+        return workDone;
     }
 
 }

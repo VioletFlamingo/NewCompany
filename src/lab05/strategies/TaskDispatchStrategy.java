@@ -1,7 +1,7 @@
 package lab05.strategies;
 
-import lab05.properties.Task;
 import lab05.employees.Employee;
+import lab05.properties.Task;
 
 import java.io.Serializable;
 

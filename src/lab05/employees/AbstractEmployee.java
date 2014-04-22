@@ -1,10 +1,10 @@
 package lab05.employees;
 
-import lab05.*;
 import lab05.properties.Report;
 import lab05.properties.Salary;
 import lab05.properties.Task;
 import lab05.strategies.WorkStrategy;
+import lab05.visitors.Visitor;
 
 public abstract class AbstractEmployee implements Employee {
     private String name;
@@ -14,22 +14,23 @@ public abstract class AbstractEmployee implements Employee {
     private int hoursWorked;
     private Salary salary;
 
-    AbstractEmployee (){
+    AbstractEmployee() {
 
     }
 
-    public AbstractEmployee (String name, String role, WorkStrategy strategy) {
-        this.name=name;
-        this.role=role;
-        this.strategy=strategy;
+    public AbstractEmployee(String name, String role, Salary salary, WorkStrategy strategy) {
+        this.name = name;
+        this.role = role;
+        this.salary=salary;
+        this.strategy = strategy;
     }
 
     public void setName(String name) {
-        this.name=name;
+        this.name = name;
     }
 
     public void setRole(String role) {
-        this.role=role;
+        this.role = role;
     }
 
     public String getName() {
@@ -51,12 +52,12 @@ public abstract class AbstractEmployee implements Employee {
     }
 
     public void assign(Task task) {
-        this.hoursWorked+=strategy.doWork(this.task.getWorkToDo());
-        this.task=task;
+        this.hoursWorked += strategy.doWork(this.task.getWorkToDo());
+        this.task = task;
     }
 
-    public void setTask (Task task) {
-        this.task=task;
+    public void setTask(Task task) {
+        this.task = task;
     }
 
     public Salary getSalary() {

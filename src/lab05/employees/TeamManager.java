@@ -1,9 +1,10 @@
 package lab05.employees;
 
-import lab05.Visitor;
 import lab05.properties.Salary;
 import lab05.properties.Task;
 import lab05.strategies.TaskDispatchStrategy;
+import lab05.strategies.WorkStrategy;
+import lab05.visitors.Visitor;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -13,13 +14,14 @@ public class TeamManager extends AbstractEmployee implements Manager, Iterable<E
     private List<Employee> employees;
     private int numberOfPlaces;
     private int numberOfEmployees = 0;
-    private TaskDispatchStrategy strategy;
+    private TaskDispatchStrategy dStrategy;
     private Salary salary;
 
-    public TeamManager(int newStaff, TaskDispatchStrategy strategy, Salary salary) {
+    public TeamManager(String name, String role, Salary salary, WorkStrategy wStrategy, int newStaff, TaskDispatchStrategy dStrategy) {
+        super(name, role, salary, wStrategy);
         employees = new ArrayList<Employee>();
         this.numberOfPlaces = newStaff;
-        this.strategy = strategy;
+        this.dStrategy = dStrategy;
         this.salary = salary;
     }
 
@@ -37,35 +39,9 @@ public class TeamManager extends AbstractEmployee implements Manager, Iterable<E
         numberOfEmployees++;
     }
 
-    /*
-    public boolean canFire() {
-        if (numberOfEmployees < 1) {
-            System.out.println("There are no employees to be fired");
-            return false;
-        }
-        return true;
-    }
-    */
-
-    /*
-    public void fire(int which) {
-        employees[which]=employees[numberOfEmployees-1];
-        employees[numberOfEmployees-1]=null;
-        numberOfEmployees--;
-    }*/
-
     public void fire(int which) {
 
     }
-
-    /*
-    public void assign() {
-        for(Employee emp: employees) {
-            Random rand = new Random();
-            emp.assign(new Task(rand.nextInt(24)+1));
-        }
-    }
-    */
 
     @Override
     public void assign(Task task) {
@@ -80,9 +56,8 @@ public class TeamManager extends AbstractEmployee implements Manager, Iterable<E
             work = 1;
         }
         this.setTask(task);
-        strategy.dispatch(employees, new Task(task.getWorkToDo() - work));
+        dStrategy.dispatch(employees, new Task(task.getWorkToDo() - work));
     }
-
 
 
     @Override
@@ -101,7 +76,7 @@ public class TeamManager extends AbstractEmployee implements Manager, Iterable<E
         }
     }
 
-    public int getNumberOfEmployedPeople() {
+    public int getNumberOfEmployees() {
         return this.numberOfEmployees;
     }
 

@@ -1,4 +1,4 @@
-package lab05;
+package lab05.utils;
 
 import lab05.employees.CEO;
 import lab05.exceptions.CEOAlreadyHiredException;
@@ -21,20 +21,22 @@ public class FileBasedCompanyRepository {
         if (companyID.exists()) {
             company = repository.load(companyID);
         } else {
-            companyID.createNewFile();
+            if(!companyID.createNewFile()) {
+                throw new IOException();
+            }
             company = new Company(CEO.hireCEO());
         }
-            Administration.takeActions();
-            repository.persist(company, companyID);
+        Administration.takeActions(company);
+        repository.persist(company, companyID);
     }
 
     private CompanyRepository getCompanyRepository() {
         return new CompanyRepository();
     }
 
-    public static File askForFileName () {
+    public static File askForFileName() {
         System.out.println("Enter file name:");
         Scanner scanner = new Scanner(System.in);
-        return new File(scanner.nextLine()+".ser");
+        return new File(scanner.nextLine() + ".ser");
     }
 }

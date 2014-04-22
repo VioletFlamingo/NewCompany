@@ -8,6 +8,6 @@ import java.util.Random;
 public class DoAlmostAllWork implements WorkStrategy {
     public int doWork(int work) {
         Random rand = new Random();
-        return (rand.nextInt(20)+80)*work/100;
+        return (rand.nextInt(20) + 80) * work / 100;
     }
 }
