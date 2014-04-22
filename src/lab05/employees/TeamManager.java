@@ -1,4 +1,9 @@
-package lab05;
+package lab05.employees;
+
+import lab05.properties.Salary;
+import lab05.properties.Task;
+import lab05.strategies.TaskDispatchStrategy;
+import lab05.Visitor;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -6,13 +11,14 @@ import java.util.List;
 import java.util.Random;
 
 public class TeamManager extends AbstractEmployee implements Manager, Iterable<Employee>{
-    private List<Employee> employees = new ArrayList<Employee>();
+    private List<Employee> employees;
     private int numberOfPlaces;
     private int numberOfEmployees=0;
     private TaskDispatchStrategy strategy;
     private Salary salary;
 
-    TeamManager (int newStaff, TaskDispatchStrategy strategy, Salary salary) {
+    public TeamManager (int newStaff, TaskDispatchStrategy strategy, Salary salary) {
+        employees = new ArrayList<Employee>();
         this.numberOfPlaces=newStaff;
         this.strategy=strategy;
         this.salary=salary;
@@ -98,28 +104,28 @@ public class TeamManager extends AbstractEmployee implements Manager, Iterable<E
 
     @Override
     public Iterator<Employee> iterator() {
-        Employee act = employees.????????
+        final Iterator<Employee> iterator = employees.iterator();
         return new Iterator<Employee>() {
             @Override
             public boolean hasNext() {
-                return false;
+                return iterator.hasNext();
             }
 
             @Override
             public Employee next() {
-                return null;
+                return iterator.next();
             }
 
             @Override
             public void remove() {
                 throw new UnsupportedOperationException();
             }
-        }
+        };
     }
 
     @Override
     public void accept(Visitor visitor) {
-
+        visitor.visit(this);
     }
 }
 

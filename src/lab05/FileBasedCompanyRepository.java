@@ -1,7 +1,9 @@
 package lab05;
 
+import lab05.employees.CEO;
+import lab05.exceptions.CEOAlreadyHiredException;
+
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;
 

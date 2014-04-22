@@ -1,6 +1,8 @@
-package lab05;
+package lab05.employees;
 
-public interface Manager extends Employee{
+import lab05.employees.Employee;
+
+public interface Manager extends Employee {
 
     public void hire(Employee employee);
     public void fire(int which);

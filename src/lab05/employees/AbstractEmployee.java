@@ -1,11 +1,17 @@
-package lab05;
+package lab05.employees;
+
+import lab05.*;
+import lab05.properties.Salary;
+import lab05.properties.Task;
+import lab05.strategies.WorkStrategy;
 
 public abstract class AbstractEmployee implements Employee {
-    protected String name;
-    protected String role;
-    protected Task task;
-    protected WorkStrategy strategy;
-    protected Integer hoursWorked=0;
+    private String name;
+    private String role;
+    private Task task;
+    private WorkStrategy strategy;
+    private int hoursWorked;
+    private Salary salary;
 
     AbstractEmployee (){
 
@@ -52,9 +58,12 @@ public abstract class AbstractEmployee implements Employee {
         this.task=task;
     }
 
-    @Override
-    public void accept(Visitor visitor) {
-
+    public Salary getSalary() {
+        return this.salary;
     }
 
+    @Override
+    public void accept(Visitor visitor) {
+        visitor.visit(this);
+    }
 }

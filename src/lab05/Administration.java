@@ -1,7 +1,6 @@
 package lab05;
 
-import java.util.Random;
-import java.util.Scanner;
+import lab05.properties.Salary;
 
 public class Administration {
 

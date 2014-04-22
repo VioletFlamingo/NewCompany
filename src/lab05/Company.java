@@ -1,10 +1,12 @@
 package lab05;
 
+import lab05.employees.CEO;
+import lab05.employees.Employee;
+
 import javax.sql.rowset.Predicate;
 import java.util.AbstractCollection;
 import java.util.Collection;
 import java.util.Iterator;
-import java.util.Stack;
 
 /**
  * Created by Paulina on 13.04.2014.
@@ -34,6 +36,7 @@ public class Company implements Visitable, Iterable<Employee> {
 
     @Override
     public Iterator<Employee> iterator() {
+        /*
         Stack<Employee> employeeStack = new Stack<Employee>();
         addToStack(companyCEO);
 
@@ -45,6 +48,7 @@ public class Company implements Visitable, Iterable<Employee> {
             }
             employeeStack.push(emp);
         }
+        */
 
         return new Iterator<Employee>() {
             @Override
@@ -65,5 +69,10 @@ public class Company implements Visitable, Iterable<Employee> {
                 throw new UnsupportedOperationException();
             }
         }
+    }
+
+    @Override
+    public void accept(Visitor visitor) {
+        visitor.visit(companyCEO);
     }
 }

@@ -1,4 +1,4 @@
-package lab05;
+package lab05.strategies;
 
 /**
  * Created by Paulina on 19.04.2014.

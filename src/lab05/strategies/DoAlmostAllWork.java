@@ -1,4 +1,4 @@
-package lab05;
+package lab05.strategies;
 
 import java.util.Random;
 

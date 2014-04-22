@@ -1,4 +1,4 @@
-package lab05;
+package lab05.properties;
 
 public class Task {
 

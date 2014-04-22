@@ -1,4 +1,4 @@
-package lab05;
+package lab05.exceptions;
 
 /**
  * Created by Paulina on 19.04.2014.

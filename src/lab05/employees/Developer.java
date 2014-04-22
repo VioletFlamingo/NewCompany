@@ -1,4 +1,6 @@
-package lab05;
+package lab05.employees;
+
+import lab05.properties.Salary;
 
 public class Developer extends AbstractEmployee {
 
