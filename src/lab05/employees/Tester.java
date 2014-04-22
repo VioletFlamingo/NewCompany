@@ -13,6 +13,6 @@ public class Tester extends AbstractEmployee {
 
     @Override
     public String toString () {
-        return "Tester: " + name + " - " + role;
+        return "Tester: " + getName() + " - " + getRole();
     }
 }

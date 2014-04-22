@@ -21,10 +21,11 @@ public class FileBasedCompanyRepository {
         if (companyID.exists()) {
             company = repository.load(companyID);
         } else {
+            companyID.createNewFile();
             company = new Company(CEO.hireCEO());
         }
             Administration.takeActions();
-            repository.persist(company);
+            repository.persist(company, companyID);
     }
 
     private CompanyRepository getCompanyRepository() {
@@ -34,6 +35,6 @@ public class FileBasedCompanyRepository {
     public static File askForFileName () {
         System.out.println("Enter file name:");
         Scanner scanner = new Scanner(System.in);
-        return new File(scanner.nextLine()+".xml");
+        return new File(scanner.nextLine()+".ser");
     }
 }

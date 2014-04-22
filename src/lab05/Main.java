@@ -1,5 +1,7 @@
 package lab05;
 
+import lab05.exceptions.CEOAlreadyHiredException;
+
 import java.io.File;
 import java.io.IOException;
 
@@ -20,6 +22,8 @@ public class Main {
         } catch (IOException e) {
             e.printStackTrace();
         } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (CEOAlreadyHiredException e) {
             e.printStackTrace();
         }
     }

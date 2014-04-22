@@ -10,12 +10,12 @@ import lab05.properties.Salary;
 import lab05.strategies.TaskDispatchStrategy;
 
 /**
- * CEO inherits from TeamManager. Only one instance of this class can be created.
+ * CEO inherits from TeamManager. CEO is a singleton class.
  */
 
 public class CEO extends TeamManager {
 
-    private static boolean CEOExists=false;
+    private static CEO ceo;
 
     private CEO(TaskDispatchStrategy strategy) {
         super(100, strategy, new Salary(50000, 0));
@@ -26,11 +26,11 @@ public class CEO extends TeamManager {
      * @return CEO
      * @throws lab05.exceptions.CEOAlreadyHiredException
      */
-    public static CEO hireCEO () throws CEOAlreadyHiredException {
-        if (CEOExists) {
-            throw new CEOAlreadyHiredException();
+    public static CEO hireCEO() throws CEOAlreadyHiredException {
+        if (ceo == null) {
+            ceo = new CEO(new DispatchEqually());
+            return ceo;
         }
-        CEOExists=true;
-        return new CEO(new DispatchEqually());
+        throw new CEOAlreadyHiredException();
     }
 }

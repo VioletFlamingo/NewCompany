@@ -1,9 +1,11 @@
 package lab05.properties;
 
+import java.io.Serializable;
+
 /**
  * Created by Paulina on 13.04.2014.
  */
-public class Salary {
+public class Salary implements Serializable{
     private final int integerPart;
     private final int decimalPlace;
 

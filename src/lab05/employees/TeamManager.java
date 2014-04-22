@@ -1,31 +1,30 @@
 package lab05.employees;
 
+import lab05.Visitor;
 import lab05.properties.Salary;
 import lab05.properties.Task;
 import lab05.strategies.TaskDispatchStrategy;
-import lab05.Visitor;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Random;
 
-public class TeamManager extends AbstractEmployee implements Manager, Iterable<Employee>{
+public class TeamManager extends AbstractEmployee implements Manager, Iterable<Employee> {
     private List<Employee> employees;
     private int numberOfPlaces;
-    private int numberOfEmployees=0;
+    private int numberOfEmployees = 0;
     private TaskDispatchStrategy strategy;
     private Salary salary;
 
-    public TeamManager (int newStaff, TaskDispatchStrategy strategy, Salary salary) {
+    public TeamManager(int newStaff, TaskDispatchStrategy strategy, Salary salary) {
         employees = new ArrayList<Employee>();
-        this.numberOfPlaces=newStaff;
-        this.strategy=strategy;
-        this.salary=salary;
+        this.numberOfPlaces = newStaff;
+        this.strategy = strategy;
+        this.salary = salary;
     }
 
     public boolean canHire() {
-        if(numberOfPlaces==numberOfEmployees) {
+        if (numberOfPlaces <= numberOfEmployees) {
             System.out.println("Company cannot hire another employee\n");
             return false;
         }
@@ -35,15 +34,18 @@ public class TeamManager extends AbstractEmployee implements Manager, Iterable<E
 
     public void hire(Employee employee) {
         employees.add(employee);
+        numberOfEmployees++;
     }
 
+    /*
     public boolean canFire() {
-        if(numberOfEmployees<1) {
+        if (numberOfEmployees < 1) {
             System.out.println("There are no employees to be fired");
             return false;
         }
         return true;
     }
+    */
 
     /*
     public void fire(int which) {
@@ -56,31 +58,46 @@ public class TeamManager extends AbstractEmployee implements Manager, Iterable<E
 
     }
 
+    /*
     public void assign() {
         for(Employee emp: employees) {
             Random rand = new Random();
             emp.assign(new Task(rand.nextInt(24)+1));
         }
     }
+    */
 
+    @Override
     public void assign(Task task) {
-        this.hoursWorked+=this.task.getWorkToDo();
-        this.task=task;
+        if (employees.isEmpty()) {
+            this.setTask(task);
+            return;
+        }
+
+        int work = task.getWorkToDo();
+        work /= 10;
+        if (work < 1 && task.getWorkToDo() > 0) {
+            work = 1;
+        }
+        this.setTask(task);
+        strategy.dispatch(employees, new Task(task.getWorkToDo() - work));
     }
+
+
 
     @Override
     public Salary getSalary() {
         return salary;
     }
 
-    public void reportWork(){
+    public void reportWork() {
         System.out.println(this.getName() + ": "
-                + this.getWork().getWorkDone() + " hours worked as " +this.getRole());
-        for(Employee e : employees) {
+                + this.getWork().getWorkDone() + " hours worked as " + this.getRole());
+        for (Employee e : employees) {
             if (e instanceof TeamManager) {
                 ((TeamManager) e).reportWork();
             }
-            System.out.println(e.getName() + ": " + e.getWork().getWorkDone() + " hours worked "+e.getRole());
+            System.out.println(e.getName() + ": " + e.getWork().getWorkDone() + " hours worked " + e.getRole());
         }
     }
 
@@ -90,15 +107,15 @@ public class TeamManager extends AbstractEmployee implements Manager, Iterable<E
 
     public void describeStaff() {
         System.out.println(this.toString());
-        for(Employee e : employees) {
+        for (Employee e : employees) {
             System.out.println(e.toString());
         }
         System.out.print("\n");
     }
 
     @Override
-    public String toString () {
-        return "Manager: " + name + " role: " + role;
+    public String toString() {
+        return "Manager: " + getName() + " role: " + getRole();
     }
 
 

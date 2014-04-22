@@ -1,6 +1,8 @@
-package lab05;
+package lab05.properties;
 
-public class Report {
+import java.io.Serializable;
+
+public class Report implements Serializable{
 
     private final int workDone;
 

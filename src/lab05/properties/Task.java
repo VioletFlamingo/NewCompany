@@ -1,6 +1,8 @@
 package lab05.properties;
 
-public class Task {
+import java.io.Serializable;
+
+public class Task implements Serializable {
 
     private final int workToDo;
 
