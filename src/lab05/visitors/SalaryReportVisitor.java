@@ -9,8 +9,8 @@ import lab05.properties.Salary;
  */
 public class SalaryReportVisitor implements Visitor {
 
-    int sumInteger, sumDecimal;
-    int numOfEmp;
+    private int sumInteger, sumDecimal;
+    private int numOfEmp;
 
     public String getReport() {
         if (sumDecimal > 99) {

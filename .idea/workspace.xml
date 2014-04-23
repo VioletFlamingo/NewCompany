@@ -2,30 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6811ed1e-5932-4d24-889e-866ab4678106" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/Administration.java" afterPath="$PROJECT_DIR$/src/lab05/utils/Administration.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/Company.java" afterPath="$PROJECT_DIR$/src/lab05/utils/Company.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/CompanyRepository.java" afterPath="$PROJECT_DIR$/src/lab05/utils/CompanyRepository.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/FileBasedCompanyRepository.java" afterPath="$PROJECT_DIR$/src/lab05/utils/FileBasedCompanyRepository.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/Main.java" afterPath="$PROJECT_DIR$/src/lab05/utils/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/Predicate.java" afterPath="$PROJECT_DIR$/src/lab05/utils/Predicate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/SalaryReportVisitor.java" afterPath="$PROJECT_DIR$/src/lab05/visitors/SalaryReportVisitor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/Visitable.java" afterPath="$PROJECT_DIR$/src/lab05/visitors/Visitable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/Visitor.java" afterPath="$PROJECT_DIR$/src/lab05/visitors/Visitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/lab05/utils/CompanyTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lab05/utils/EmployeeCreator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/employees/AbstractEmployee.java" afterPath="$PROJECT_DIR$/src/lab05/employees/AbstractEmployee.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/employees/CEO.java" afterPath="$PROJECT_DIR$/src/lab05/employees/CEO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/exceptions/CEOAlreadyHiredException.java" afterPath="$PROJECT_DIR$/src/lab05/exceptions/CEOAlreadyHiredException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/employees/Developer.java" afterPath="$PROJECT_DIR$/src/lab05/employees/Developer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/strategies/DispatchEqually.java" afterPath="$PROJECT_DIR$/src/lab05/strategies/DispatchEqually.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/strategies/DispatchTaskByRole.java" afterPath="$PROJECT_DIR$/src/lab05/strategies/DispatchTaskByRole.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/strategies/DoAlmostAllWork.java" afterPath="$PROJECT_DIR$/src/lab05/strategies/DoAlmostAllWork.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/employees/Employee.java" afterPath="$PROJECT_DIR$/src/lab05/employees/Employee.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/employees/Manager.java" afterPath="$PROJECT_DIR$/src/lab05/employees/Manager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/properties/Report.java" afterPath="$PROJECT_DIR$/src/lab05/properties/Report.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/properties/Salary.java" afterPath="$PROJECT_DIR$/src/lab05/properties/Salary.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/strategies/TaskDispatchStrategy.java" afterPath="$PROJECT_DIR$/src/lab05/strategies/TaskDispatchStrategy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/employees/TeamManager.java" afterPath="$PROJECT_DIR$/src/lab05/employees/TeamManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/employees/Tester.java" afterPath="$PROJECT_DIR$/src/lab05/employees/Tester.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/strategies/WorkStrategy.java" afterPath="$PROJECT_DIR$/src/lab05/strategies/WorkStrategy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/utils/Administration.java" afterPath="$PROJECT_DIR$/src/lab05/utils/Administration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewCompany.iml" afterPath="$PROJECT_DIR$/NewCompany.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/visitors/SalaryReportVisitor.java" afterPath="$PROJECT_DIR$/src/lab05/visitors/SalaryReportVisitor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NewCompany.iws" />
@@ -90,35 +73,102 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TeamManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab05/employees/TeamManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="0" selection-start="2730" selection-end="2730" vertical-scroll-proportion="-5.1153846" vertical-offset="1292" max-vertical-offset="1875">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Company.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lab05/utils/Company.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="0" selection-start="3109" selection-end="3155" vertical-scroll-proportion="1.849315" vertical-offset="0" max-vertical-offset="1905">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="class#CompanyIterator#0;class#Company#0" expanded="false" />
-                <element signature="e#2187#2197#0" expanded="true" />
-                <element signature="e#3007#3017#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Administration.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lab05/utils/Administration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="0" selection-start="1880" selection-end="1880" vertical-scroll-proportion="0.0" vertical-offset="608" max-vertical-offset="2130">
+            <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1845">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CEO.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab05/employees/CEO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="106" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Salary.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lab05/properties/Salary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="0" selection-start="616" selection-end="616" vertical-scroll-proportion="0.5304102" vertical-offset="0" max-vertical-offset="707">
+              <folding>
+                <element signature="e#649#650#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#720#721#0" expanded="true" />
+                <element signature="e#755#756#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeeCreator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab05/utils/EmployeeCreator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="26" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1305">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab05/utils/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="39" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Predicate.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab05/utils/Predicate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="50" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SalaryReportVisitor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab05/visitors/SalaryReportVisitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="12" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="870">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Visitable.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab05/visitors/Visitable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="47" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Visitor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab05/visitors/Visitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="45" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractEmployee.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab05/employees/AbstractEmployee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="19" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,10 +218,8 @@
         <option value="$PROJECT_DIR$/src/lab05/CompanyRepository.java" />
         <option value="$PROJECT_DIR$/src/lab05/Company.java" />
         <option value="$PROJECT_DIR$/src/lab05/employees/Employee.java" />
-        <option value="$PROJECT_DIR$/src/lab05/properties/Salary.java" />
         <option value="$PROJECT_DIR$/src/lab05/properties/Task.java" />
         <option value="$PROJECT_DIR$/src/lab05/strategies/TaskDispatchStrategy.java" />
-        <option value="$PROJECT_DIR$/src/lab05/strategies/WorkStrategy.java" />
         <option value="$PROJECT_DIR$/src/lab05/properties/Report.java" />
         <option value="$PROJECT_DIR$/src/lab05/Predicate.java" />
         <option value="$PROJECT_DIR$/src/lab05/Visitor.java" />
@@ -179,13 +227,18 @@
         <option value="$PROJECT_DIR$/pizza.ser" />
         <option value="$PROJECT_DIR$/src/lab05/utils/CompanyRepository.java" />
         <option value="$PROJECT_DIR$/src/lab05/utils/FileBasedCompanyRepository.java" />
-        <option value="$PROJECT_DIR$/src/lab05/employees/AbstractEmployee.java" />
         <option value="$PROJECT_DIR$/src/lab05/employees/Developer.java" />
         <option value="$PROJECT_DIR$/src/lab05/employees/Tester.java" />
-        <option value="$PROJECT_DIR$/src/lab05/utils/Administration.java" />
         <option value="$PROJECT_DIR$/src/lab05/employees/CEO.java" />
         <option value="$PROJECT_DIR$/src/lab05/employees/TeamManager.java" />
         <option value="$PROJECT_DIR$/src/lab05/utils/Company.java" />
+        <option value="$PROJECT_DIR$/tests/lab05/utils/CompanyTest.java" />
+        <option value="$PROJECT_DIR$/src/lab05/strategies/WorkStrategy.java" />
+        <option value="$PROJECT_DIR$/src/lab05/visitors/SalaryReportVisitor.java" />
+        <option value="$PROJECT_DIR$/src/lab05/employees/AbstractEmployee.java" />
+        <option value="$PROJECT_DIR$/src/lab05/utils/EmployeeCreator.java" />
+        <option value="$PROJECT_DIR$/src/lab05/utils/Administration.java" />
+        <option value="$PROJECT_DIR$/src/lab05/properties/Salary.java" />
       </list>
     </option>
   </component>
@@ -239,6 +292,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="NewCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -398,8 +469,19 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="LayoutCode.rearrangeEntries" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="lab05.utils" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="lab05" />
     </key>
@@ -410,8 +492,11 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="lab05" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="lab05.utils" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.CompanyTest.addFirstEmployeeFailed">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -437,6 +522,96 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CompanyTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="lab05.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="NewCompany" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="lab05.utils" />
+      <option name="MAIN_CLASS_NAME" value="lab05.utils.CompanyTest" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CompanyTest.twoAddedTestSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="lab05.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="NewCompany" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="lab05.utils" />
+      <option name="MAIN_CLASS_NAME" value="lab05.utils.CompanyTest" />
+      <option name="METHOD_NAME" value="twoAddedTestSize" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CompanyTest.addFirstEmployeeFailed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="lab05.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="NewCompany" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="lab05.utils" />
+      <option name="MAIN_CLASS_NAME" value="lab05.utils.CompanyTest" />
+      <option name="METHOD_NAME" value="addFirstEmployeeFailed" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -651,12 +826,47 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="CompanyTest.testSize" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="lab05.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="NewCompany" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="lab05.utils" />
+      <option name="MAIN_CLASS_NAME" value="lab05.utils.CompanyTest" />
+      <option name="METHOD_NAME" value="testSize" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CompanyTest.testSize" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CompanyTest.testAdd" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CompanyTest.twoAddedTestSize" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CompanyTest.addFirstEmployeeFailed" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CompanyTest.addFirstEmployeeFailed" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CompanyTest.twoAddedTestSize" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CompanyTest.testAdd" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -687,7 +897,7 @@
       <changelist id="6811ed1e-5932-4d24-889e-866ab4678106" name="Default" comment="" />
       <created>1397338757508</created>
       <updated>1397338757508</updated>
-      <workItem from="1397338758906" duration="53925000" />
+      <workItem from="1397338758906" duration="58026000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1397937518616</created>
@@ -725,11 +935,15 @@
       <created>1398187633942</created>
       <updated>1398187633942</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="prefinal commit??? ;_;'.&#10;">
+      <created>1398196052347</created>
+      <updated>1398196052347</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53925000" />
+    <option name="totallyTimeSpent" value="58026000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="77" y="24" width="1344" height="827" extended-state="0" />
@@ -777,7 +991,8 @@
     </option>
     <MESSAGE value="Initial commit&#10;" />
     <MESSAGE value="prefinal commit??? ;_;'." />
-    <option name="LAST_COMMIT_MESSAGE" value="prefinal commit??? ;_;'." />
+    <MESSAGE value="prefinal commit??? ;_;'.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="prefinal commit??? ;_;'.&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -794,10 +1009,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pizza.ser">
+    <entry file="file://$PROJECT_DIR$/tests/lab05/utils/CompanyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="16" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <folding />
+        <state line="36" column="27" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab05/employees/Developer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="62" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -817,6 +1043,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab05/employees/TeamManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="0" selection-start="2730" selection-end="2730" vertical-scroll-proportion="-54.807693" vertical-offset="0" max-vertical-offset="1875">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab05/employees/Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="34" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lab05/exceptions/CEOAlreadyHiredException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="39" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
@@ -824,9 +1068,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/properties/Salary.java">
+    <entry file="file://$PROJECT_DIR$/src/lab05/properties/Report.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+        <state line="4" column="17" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
           <folding />
         </state>
       </provider>
@@ -875,8 +1119,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab05/strategies/WorkStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="50" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+        <state line="8" column="4" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab05/utils/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="0" selection-start="1765" selection-end="1765" vertical-scroll-proportion="0.0" vertical-offset="863" max-vertical-offset="1905">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#CompanyIterator#0;class#Company#0" expanded="false" />
+            <element signature="e#2187#2197#0" expanded="true" />
+            <element signature="e#3007#3017#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -887,9 +1143,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab05/utils/FileBasedCompanyRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="42" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lab05/utils/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="39" selection-start="578" selection-end="578" vertical-scroll-proportion="0.55737704" vertical-offset="17" max-vertical-offset="495">
+        <state line="19" column="39" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
           <folding />
         </state>
       </provider>
@@ -903,7 +1168,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab05/visitors/SalaryReportVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="18" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="870">
+        <state line="12" column="12" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="870">
           <folding />
         </state>
       </provider>
@@ -924,44 +1189,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/employees/Developer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="62" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/employees/Tester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="34" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lab05/employees/AbstractEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="21" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.3208431" vertical-offset="433" max-vertical-offset="930">
+        <state line="46" column="19" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
           <folding>
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/properties/Report.java">
+    <entry file="file://$PROJECT_DIR$/src/lab05/utils/EmployeeCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+        <state line="4" column="26" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1305">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/utils/FileBasedCompanyRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/lab05/utils/Administration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="42" selection-start="855" selection-end="855" vertical-scroll-proportion="0.9836066" vertical-offset="0" max-vertical-offset="720">
+        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1845">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -970,50 +1216,123 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab05/employees/CEO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="106" selection-start="570" selection-end="570" vertical-scroll-proportion="0.73770493" vertical-offset="0" max-vertical-offset="660">
+        <state line="21" column="106" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/piarapa.ser">
+    <entry file="file://$PROJECT_DIR$/src/lab05/properties/Salary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="488">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/employees/TeamManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="0" selection-start="2730" selection-end="2730" vertical-scroll-proportion="-5.1153846" vertical-offset="1292" max-vertical-offset="1875">
+        <state line="25" column="0" selection-start="616" selection-end="616" vertical-scroll-proportion="0.5304102" vertical-offset="0" max-vertical-offset="707">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/utils/Administration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1880" selection-end="1880" vertical-scroll-proportion="0.0" vertical-offset="608" max-vertical-offset="2130">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/utils/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="0" selection-start="3109" selection-end="3155" vertical-scroll-proportion="1.849315" vertical-offset="0" max-vertical-offset="1905">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#CompanyIterator#0;class#Company#0" expanded="false" />
-            <element signature="e#2187#2197#0" expanded="true" />
-            <element signature="e#3007#3017#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>NewCompany</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

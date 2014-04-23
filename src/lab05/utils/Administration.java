@@ -1,23 +1,12 @@
 package lab05.utils;
-
 import lab05.employees.*;
-import lab05.properties.Salary;
 import lab05.properties.Task;
-import lab05.strategies.*;
 
 import java.util.Random;
 import java.util.Scanner;
 
 public class Administration {
 
-    protected static String names[] = {"Adam", "Bella", "Charlie", "Donald", "Elisabeth", "Fabian", "Gabriel", "Hercules"};
-    protected static String surnames[] = {"Anderson", "Black", "Cooper", "Duck", "Elliot", "Fast", "Green", "Hood"};
-    protected static String testerJobs[] = {"testing software", "testing latest program"};
-    protected static String developerJobs[] = {"developing game", "fixing bugs"};
-    protected static Salary managerSalary[] = {new Salary(19999, 99), new Salary(10000, 0), new Salary(9500, 0)};
-    protected static Salary employeeSalary[] = {new Salary(9999, 99), new Salary(7000, 0), new Salary(4500, 0)};
-    private static WorkStrategy workStrategies[] = {new DoAllWork(), new DoAlmostAllWork()};
-    private static TaskDispatchStrategy dispatchStrategies[] = {new DispatchEqually(), new DispatchTaskByRole()};
     private static Company comp;
 
     public static void takeActions(Company company) {
@@ -84,22 +73,14 @@ public class Administration {
 
     public static Employee generateEmployee() {
         Random rand = new Random();
-        String name = names[rand.nextInt(names.length)] + " ";
-        name += surnames[rand.nextInt(surnames.length)];
         AbstractEmployee employee;
         int whichRole = rand.nextInt(11);
         if (whichRole == 0) {
-            employee = new TeamManager(name, "Manager", managerSalary[rand.nextInt(managerSalary.length)],
-                    workStrategies[rand.nextInt(workStrategies.length)],
-                    rand.nextInt(10) + 1, dispatchStrategies[rand.nextInt(dispatchStrategies.length)]);
+            employee = EmployeeCreator.createRandomManager();
         } else if (whichRole < 6) {
-            employee = new Developer(name, developerJobs[rand.nextInt(developerJobs.length)],
-                    employeeSalary[rand.nextInt(managerSalary.length)],
-                    workStrategies[rand.nextInt(workStrategies.length)]);
+            employee = EmployeeCreator.createRandomDeveloper();
         } else {
-            employee = new Tester(name, testerJobs[rand.nextInt(testerJobs.length)],
-                    employeeSalary[rand.nextInt(managerSalary.length)],
-                    workStrategies[rand.nextInt(workStrategies.length)]);
+            employee = EmployeeCreator.createRandomTester();
         }
         employee.setTask(new Task(rand.nextInt(24)));
         return employee;

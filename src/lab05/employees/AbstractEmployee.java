@@ -14,23 +14,11 @@ public abstract class AbstractEmployee implements Employee {
     private int hoursWorked;
     private Salary salary;
 
-    AbstractEmployee() {
-
-    }
-
     public AbstractEmployee(String name, String role, Salary salary, WorkStrategy strategy) {
         this.name = name;
         this.role = role;
         this.salary=salary;
         this.strategy = strategy;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setRole(String role) {
-        this.role = role;
     }
 
     public String getName() {
