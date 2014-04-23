@@ -29,7 +29,7 @@ public class SalaryReportVisitor implements Visitor {
             averageDec = tmp % 100;
             averageInt += tmp / 100;
         }
-        return "Average salary is: " + new Salary(averageInt, averageDec);
+        return "Average salary is: " + new Salary(averageInt, averageDec)+"\n\n";
     }
 
 

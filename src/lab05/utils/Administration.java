@@ -1,6 +1,8 @@
 package lab05.utils;
 import lab05.employees.*;
 import lab05.properties.Task;
+import lab05.visitors.DescriptionVisitor;
+import lab05.visitors.SalaryReportVisitor;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -43,7 +45,8 @@ public class Administration {
             System.out.println("(3) give new tasks to employees");
             System.out.println("(4) get the report");
             System.out.println("(5) get description of every employee");
-            System.out.println("(6) exit");
+            System.out.println("(6) get average salary");
+            System.out.println("(7) exit");
             Scanner input = new Scanner(System.in);
             int choice = input.nextInt();
             switch (choice) {
@@ -64,11 +67,26 @@ public class Administration {
                     getDescription();
                     break;
                 case 6:
+                    getAverageSalary();
+                    break;
+                case 7:
                 default:
                     companyExist = false;
                     break;
             }
         }
+    }
+
+    public static void getAverageSalary () {
+        SalaryReportVisitor salaryReportVisitor = new SalaryReportVisitor();
+        comp.accept(salaryReportVisitor);
+        System.out.println(salaryReportVisitor.getReport());
+    }
+
+    public static void getDescription() {
+        DescriptionVisitor descriptionVisitor = new DescriptionVisitor();
+        comp.accept(descriptionVisitor);
+        System.out.println(descriptionVisitor.summation(comp));
     }
 
     public static Employee generateEmployee() {
@@ -108,10 +126,6 @@ public class Administration {
 
     public static void getTheReport() {
         //manager.reportWork();
-    }
-
-    public static void getDescription() {
-        //manager.describeStaff();
     }
 
 }

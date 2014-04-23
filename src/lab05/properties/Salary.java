@@ -24,6 +24,7 @@ public class Salary implements Serializable {
         }
     }
 
+
     public int getIntegerPart() {
         return integerPart;
     }

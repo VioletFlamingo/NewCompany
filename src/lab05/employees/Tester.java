@@ -9,7 +9,6 @@ public class Tester extends AbstractEmployee {
         super(name, role, salary, strategy);
     }
 
-
     @Override
     public String toString() {
         return "Tester: " + getName() + " - " + getRole();
