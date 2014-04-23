@@ -1,15 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6811ed1e-5932-4d24-889e-866ab4678106" name="Default" comment="Almost done... I hope.&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/utils/Administration.java" afterPath="$PROJECT_DIR$/src/lab05/utils/Administration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/utils/Company.java" afterPath="$PROJECT_DIR$/src/lab05/utils/Company.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/utils/CompanyRepository.java" afterPath="$PROJECT_DIR$/src/lab05/utils/CompanyRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/utils/EmployeeCreator.java" afterPath="$PROJECT_DIR$/src/lab05/utils/EmployeeCreator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/utils/FileBasedCompanyRepository.java" afterPath="$PROJECT_DIR$/src/lab05/utils/FileBasedCompanyRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/utils/Main.java" afterPath="$PROJECT_DIR$/src/lab05/utils/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/utils/Predicate.java" afterPath="$PROJECT_DIR$/src/lab05/utils/Predicate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab05/employees/TeamManager.java" afterPath="$PROJECT_DIR$/src/lab05/employees/TeamManager.java" />
+    <list default="true" id="6811ed1e-5932-4d24-889e-866ab4678106" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/exceptions/CEOAlreadyHiredException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/employees/Employee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/properties/Report.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lab05/employees/Employee.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lab05/exceptions/CEOAlreadyHiredException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lab05/properties/Report.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/employees/AbstractEmployee.java" afterPath="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/employees/AbstractEmployee.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/employees/CEO.java" afterPath="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/employees/CEO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/employees/Developer.java" afterPath="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/employees/Developer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/employees/Manager.java" afterPath="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/employees/Manager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/employees/TeamManager.java" afterPath="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/employees/TeamManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/employees/Tester.java" afterPath="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/employees/Tester.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/properties/Salary.java" afterPath="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/properties/Salary.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/properties/Task.java" afterPath="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/properties/Task.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/strategies/DispatchEqually.java" afterPath="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/strategies/DispatchEqually.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/strategies/DispatchTaskByRole.java" afterPath="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/strategies/DispatchTaskByRole.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/strategies/DoAllWork.java" afterPath="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/strategies/DoAllWork.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/strategies/DoAlmostAllWork.java" afterPath="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/strategies/DoAlmostAllWork.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/strategies/TaskDispatchStrategy.java" afterPath="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/strategies/TaskDispatchStrategy.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/strategies/WorkStrategy.java" afterPath="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/strategies/WorkStrategy.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/utils/Administration.java" afterPath="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/utils/Administration.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/utils/Company.java" afterPath="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/utils/Company.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/utils/CompanyRepository.java" afterPath="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/utils/CompanyRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/utils/EmployeeCreator.java" afterPath="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/utils/EmployeeCreator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/utils/FileBasedCompanyRepository.java" afterPath="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/utils/FileBasedCompanyRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/utils/Main.java" afterPath="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/utils/Main.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/utils/Predicate.java" afterPath="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/utils/Predicate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/visitors/DescriptionVisitor.java" afterPath="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/visitors/DescriptionVisitor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/visitors/SalaryReportVisitor.java" afterPath="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/visitors/SalaryReportVisitor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/visitors/Visitable.java" afterPath="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/visitors/Visitable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lab05/visitors/Visitor.java" afterPath="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/visitors/Visitor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/lab05/properties/SalaryTest.java" afterPath="$PROJECT_DIR$/tests/main/java/pl/agh/jtp/home01/properties/SalaryTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/lab05/utils/CompanyTest.java" afterPath="$PROJECT_DIR$/tests/main/java/pl/agh/jtp/home01/utils/CompanyTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NewCompany.iws" />
@@ -66,7 +91,7 @@
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/lab05/visitors/SalaryReportVisitor.java" line="44" class="lab05.visitors.SalaryReportVisitor" package="lab05.visitors">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/visitors/SalaryReportVisitor.java" line="44" class="main.java.pl.agh.jtp.home01.visitors.SalaryReportVisitor" package="main.java.pl.agh.jtp.home01.visitors">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -81,7 +106,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/lab05/visitors/SalaryReportVisitor.java" line="49" class="lab05.visitors.SalaryReportVisitor" package="lab05.visitors">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/visitors/SalaryReportVisitor.java" line="49" class="main.java.pl.agh.jtp.home01.visitors.SalaryReportVisitor" package="main.java.pl.agh.jtp.home01.visitors">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -96,7 +121,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/lab05/visitors/SalaryReportVisitor.java" line="48" class="lab05.visitors.SalaryReportVisitor" package="lab05.visitors">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/visitors/SalaryReportVisitor.java" line="48" class="main.java.pl.agh.jtp.home01.visitors.SalaryReportVisitor" package="main.java.pl.agh.jtp.home01.visitors">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -111,7 +136,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/lab05/visitors/SalaryReportVisitor.java" line="38" class="lab05.visitors.SalaryReportVisitor" package="lab05.visitors">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/visitors/SalaryReportVisitor.java" line="38" class="main.java.pl.agh.jtp.home01.visitors.SalaryReportVisitor" package="main.java.pl.agh.jtp.home01.visitors">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -126,7 +151,37 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/lab05/visitors/SalaryReportVisitor.java" line="39" class="lab05.visitors.SalaryReportVisitor" package="lab05.visitors">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/visitors/SalaryReportVisitor.java" line="39" class="main.java.pl.agh.jtp.home01.visitors.SalaryReportVisitor" package="main.java.pl.agh.jtp.home01.visitors">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/employees/AbstractEmployee.java" line="45" class="main.java.pl.agh.jtp.home01.employees.AbstractEmployee" package="main.java.pl.agh.jtp.home01.employees">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/employees/AbstractEmployee.java" line="46" class="main.java.pl.agh.jtp.home01.employees.AbstractEmployee" package="main.java.pl.agh.jtp.home01.employees">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -151,23 +206,75 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="TeamManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/employees/TeamManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="0" selection-start="1153" selection-end="1153" vertical-scroll-proportion="-5.6153846" vertical-offset="169" max-vertical-offset="1635">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Report.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/properties/Report.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="53" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Employee.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/employees/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/properties/Task.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="42" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Salary.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/properties/Salary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="7" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CEO.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/employees/CEO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Administration.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/utils/Administration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="117" column="38" selection-start="3882" selection-end="3882" vertical-scroll-proportion="0.0" vertical-offset="1652" max-vertical-offset="2190">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Company.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab05/utils/Company.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/utils/Company.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="19" selection-start="758" selection-end="758" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2850">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3471#3481#0" expanded="true" />
-                <element signature="e#4291#4301#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab05/utils/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+            <state line="106" column="69" selection-start="3405" selection-end="3405" vertical-scroll-proportion="-21.423077" vertical-offset="1033" max-vertical-offset="3195">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -175,20 +282,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Predicate.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab05/utils/Predicate.java">
+      <file leaf-file-name="DispatchTaskByRole.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/strategies/DispatchTaskByRole.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="1" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+            <state line="7" column="36" selection-start="255" selection-end="255" vertical-scroll-proportion="0.17782427" vertical-offset="0" max-vertical-offset="1224">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Report.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lab05/properties/Report.java">
+      <file leaf-file-name="AbstractEmployee.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/employees/AbstractEmployee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="17" selection-start="74" selection-end="74" vertical-scroll-proportion="0.08219178" vertical-offset="0" max-vertical-offset="730">
-              <folding />
+            <state line="45" column="0" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="885">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -206,16 +315,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/lab05/DispatchBySalary.java" />
-        <option value="$PROJECT_DIR$/src/lab05/TaskDispathStrategy.java" />
-        <option value="$PROJECT_DIR$/src/lab05/DispathTaskByRole.java" />
-        <option value="$PROJECT_DIR$/src/lab05/DispathEqually.java" />
-        <option value="$PROJECT_DIR$/src/lab05/CEOAlreadyHiredException.java" />
-        <option value="$PROJECT_DIR$/src/lab05/Developer.java" />
-        <option value="$PROJECT_DIR$/src/lab05/WorkStrategy.java" />
-        <option value="$PROJECT_DIR$/src/lab05/DoAllWork.java" />
-        <option value="$PROJECT_DIR$/src/lab05/DoAlmostAllWork.java" />
-        <option value="$PROJECT_DIR$/src/lab05/CEO.java" />
         <option value="$PROJECT_DIR$/src/lab05/Administration.java" />
         <option value="$PROJECT_DIR$/src/lab05/Employee.java" />
         <option value="$PROJECT_DIR$/src/lab05/Salary.java" />
@@ -232,18 +331,13 @@
         <option value="$PROJECT_DIR$/src/lab05/CompanyRepository.java" />
         <option value="$PROJECT_DIR$/src/lab05/Company.java" />
         <option value="$PROJECT_DIR$/src/lab05/employees/Employee.java" />
-        <option value="$PROJECT_DIR$/src/lab05/properties/Task.java" />
         <option value="$PROJECT_DIR$/src/lab05/strategies/TaskDispatchStrategy.java" />
-        <option value="$PROJECT_DIR$/src/lab05/properties/Report.java" />
         <option value="$PROJECT_DIR$/src/lab05/Predicate.java" />
         <option value="$PROJECT_DIR$/src/lab05/Visitor.java" />
         <option value="$PROJECT_DIR$/src/lab05/Visitable.java" />
         <option value="$PROJECT_DIR$/pizza.ser" />
-        <option value="$PROJECT_DIR$/src/lab05/employees/CEO.java" />
         <option value="$PROJECT_DIR$/tests/lab05/utils/CompanyTest.java" />
         <option value="$PROJECT_DIR$/src/lab05/strategies/WorkStrategy.java" />
-        <option value="$PROJECT_DIR$/src/lab05/employees/AbstractEmployee.java" />
-        <option value="$PROJECT_DIR$/src/lab05/properties/Salary.java" />
         <option value="$PROJECT_DIR$/tests/lab05/properties/SalaryTest.java" />
         <option value="$PROJECT_DIR$/src/lab05/visitors/DescriptionVisitor.java" />
         <option value="$PROJECT_DIR$/src/lab05/visitors/SalaryReportVisitor.java" />
@@ -257,13 +351,28 @@
         <option value="$PROJECT_DIR$/src/lab05/utils/FileBasedCompanyRepository.java" />
         <option value="$PROJECT_DIR$/src/lab05/utils/Main.java" />
         <option value="$PROJECT_DIR$/src/lab05/utils/Predicate.java" />
+        <option value="$PROJECT_DIR$/src/lab05/properties/Report.java" />
+        <option value="$PROJECT_DIR$/src/lab05/properties/Salary.java" />
+        <option value="$PROJECT_DIR$/src/lab05/properties/Task.java" />
+        <option value="$PROJECT_DIR$/src/lab05/employees/AbstractEmployee.java" />
+        <option value="$PROJECT_DIR$/src/lab05/employees/CEO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/lab05/employees/AbstractEmployee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/agh/jtp/lab05/employees/AbstractEmployee.java" />
+        <option value="$PROJECT_DIR$/tests/main/java/pl/agh/jtp/home01/utils/CompanyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/exceptions/CEOAlreadyHiredException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/employees/CEO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/employees/AbstractEmployee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/employees/TeamManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/utils/Company.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/utils/Administration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/strategies/DispatchTaskByRole.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="77" />
-    <option name="y" value="24" />
-    <option name="width" value="1344" />
+    <option name="x" value="49" />
+    <option name="y" value="36" />
+    <option name="width" value="1356" />
     <option name="height" value="827" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -283,11 +392,11 @@
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
-      <flattenPackages />
-      <showMembers />
+      <flattenPackages PackagesPane="false" />
+      <showMembers PackagesPane="false" />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages PackagesPane="false" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
@@ -327,7 +436,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lab05" />
+              <option name="myItemId" value="home01" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -349,7 +458,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lab05" />
+              <option name="myItemId" value="home01" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -371,11 +480,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lab05" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="visitors" />
+              <option name="myItemId" value="home01" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -393,7 +498,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lab05" />
+              <option name="myItemId" value="home01" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -415,7 +520,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lab05" />
+              <option name="myItemId" value="home01" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -437,7 +542,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lab05" />
+              <option name="myItemId" value="home01" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -459,7 +564,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lab05" />
+              <option name="myItemId" value="home01" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -481,7 +586,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lab05" />
+              <option name="myItemId" value="home01" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -491,7 +596,54 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jtp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -514,11 +666,19 @@
     <property name="dynamic.classpath" value="false" />
     <property name="LayoutCode.rearrangeEntries" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
-    <property name="SearchEverywhereHistory" value="set" />
+    <property name="SearchEverywhereHistory" value="&#10;set" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="newcompany" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -539,42 +699,16 @@
       <recent name="lab05" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="main.java.pl.agh.jtp" />
+      <recent name="main.java.pl.agh.jtp.home01" />
       <recent name="lab05.utils" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration default="false" name="CompanyTest.twoAddedTestSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="lab05.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="NewCompany" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="lab05.utils" />
-      <option name="MAIN_CLASS_NAME" value="lab05.utils.CompanyTest" />
-      <option name="METHOD_NAME" value="twoAddedTestSize" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="CompanyTest.addFirstEmployeeFailed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="lab05.utils.*" />
+          <option name="PATTERN" value="main.java.pl.agh.jtp.home01.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -582,7 +716,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="lab05.utils" />
-      <option name="MAIN_CLASS_NAME" value="lab05.utils.CompanyTest" />
+      <option name="MAIN_CLASS_NAME" value="main.java.pl.agh.jtp.home01.utils.CompanyTest" />
       <option name="METHOD_NAME" value="addFirstEmployeeFailed" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -602,7 +736,7 @@
     <configuration default="false" name="SalaryTest.checkValueSaving" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="lab05.properties.*" />
+          <option name="PATTERN" value="main.java.pl.agh.jtp.home01.properties.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -610,7 +744,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="lab05.properties" />
-      <option name="MAIN_CLASS_NAME" value="lab05.properties.SalaryTest" />
+      <option name="MAIN_CLASS_NAME" value="main.java.pl.agh.jtp.home01.properties.SalaryTest" />
       <option name="METHOD_NAME" value="checkValueSaving" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -630,7 +764,7 @@
     <configuration default="false" name="SalaryTest.checkNegativeNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="lab05.properties.*" />
+          <option name="PATTERN" value="main.java.pl.agh.jtp.home01.properties.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -638,7 +772,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="lab05.properties" />
-      <option name="MAIN_CLASS_NAME" value="lab05.properties.SalaryTest" />
+      <option name="MAIN_CLASS_NAME" value="main.java.pl.agh.jtp.home01.properties.SalaryTest" />
       <option name="METHOD_NAME" value="checkNegativeNumber" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -655,24 +789,30 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CompanyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="lab05.utils.*" />
+          <option name="PATTERN" value="main.java.pl.agh.jtp.home01.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="lab05.utils.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="NewCompany" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="PACKAGE_NAME" value="main.java.pl.agh.jtp.home01.utils" />
+      <option name="MAIN_CLASS_NAME" value="main.java.pl.agh.jtp.home01.utils.CompanyTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="NewCompany" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
       <envs />
+      <patterns />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="" />
         <option name="TRANSPORT" value="0" />
@@ -680,6 +820,34 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SalaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="main.java.pl.agh.jtp.home01.properties.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="NewCompany" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="main.java.pl.agh.jtp.home01.properties" />
+      <option name="MAIN_CLASS_NAME" value="main.java.pl.agh.jtp.home01.properties.SalaryTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -894,10 +1062,38 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="main.java.pl.agh.jtp.home01.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="main.java.pl.agh.jtp.home01.utils.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="NewCompany" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="false" name="CompanyTest.testSize" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="lab05.utils.*" />
+          <option name="PATTERN" value="main.java.pl.agh.jtp.home01.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -905,7 +1101,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="lab05.utils" />
-      <option name="MAIN_CLASS_NAME" value="lab05.utils.CompanyTest" />
+      <option name="MAIN_CLASS_NAME" value="main.java.pl.agh.jtp.home01.utils.CompanyTest" />
       <option name="METHOD_NAME" value="testSize" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -922,21 +1118,22 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CompanyTest.testSize" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CompanyTest.twoAddedTestSize" />
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CompanyTest.testSize" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.CompanyTest.addFirstEmployeeFailed" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.SalaryTest.checkValueSaving" />
       <item index="4" class="java.lang.String" itemvalue="JUnit.SalaryTest.checkNegativeNumber" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.CompanyTest" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.SalaryTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SalaryTest.checkNegativeNumber" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SalaryTest.checkValueSaving" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CompanyTest.addFirstEmployeeFailed" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CompanyTest.twoAddedTestSize" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CompanyTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SalaryTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SalaryTest.checkNegativeNumber" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SalaryTest.checkValueSaving" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CompanyTest.addFirstEmployeeFailed" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -967,7 +1164,7 @@
       <changelist id="6811ed1e-5932-4d24-889e-866ab4678106" name="Default" comment="" />
       <created>1397338757508</created>
       <updated>1397338757508</updated>
-      <workItem from="1397338758906" duration="66348000" />
+      <workItem from="1397338758906" duration="76159000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1397937518616</created>
@@ -1017,41 +1214,45 @@
       <created>1398250715166</created>
       <updated>1398250715166</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Almost done... I hope.&#10;">
+      <created>1398255383543</created>
+      <updated>1398255383543</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66348000" />
+    <option name="totallyTimeSpent" value="76159000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="77" y="24" width="1344" height="827" extended-state="0" />
-    <editor active="false" />
+    <frame x="49" y="36" width="1356" height="827" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39973614" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30211082" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39973614" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30211082" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19270833" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39973614" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30211082" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29277286" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39973614" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30211082" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
     </layout>
   </component>
@@ -1089,125 +1290,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/employees/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/employees/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/exceptions/CEOAlreadyHiredException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="39" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/properties/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="42" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/strategies/DispatchEqually.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/strategies/DispatchEqually.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/strategies/DispatchTaskByRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/strategies/DoAllWork.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/strategies/DoAllWork.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="3" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/strategies/DoAlmostAllWork.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/strategies/DoAlmostAllWork.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="46" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/strategies/TaskDispatchStrategy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/strategies/TaskDispatchStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="58" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/strategies/WorkStrategy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/strategies/WorkStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="4" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/visitors/Visitable.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/visitors/Visitable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="47" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/employees/CEO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="106" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/properties/Salary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="9" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
-          <folding>
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/lab05/utils/CompanyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="27" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/lab05/properties/SalaryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="26" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/visitors/DescriptionVisitor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/visitors/DescriptionVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="37" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
           <folding>
@@ -1216,122 +1341,184 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/visitors/SalaryReportVisitor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/visitors/SalaryReportVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="0" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0" vertical-offset="406" max-vertical-offset="870">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/employees/Developer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="5" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/employees/Tester.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/employees/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/employees/TeamManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="44" selection-start="2366" selection-end="2366" vertical-scroll-proportion="2.3952096" vertical-offset="0" max-vertical-offset="1755">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/employees/AbstractEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1286" selection-end="1286" vertical-scroll-proportion="1.4371258" vertical-offset="0" max-vertical-offset="840">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/visitors/Visitor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/visitors/Visitor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="45" selection-start="215" selection-end="215" vertical-scroll-proportion="0.2994012" vertical-offset="0" max-vertical-offset="501">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/utils/FileBasedCompanyRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/utils/FileBasedCompanyRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="85" selection-start="694" selection-end="694" vertical-scroll-proportion="-0.25523013" vertical-offset="497" max-vertical-offset="975">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/utils/EmployeeCreator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/utils/EmployeeCreator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="28" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.9101796" vertical-offset="234" max-vertical-offset="1515">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/utils/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="19" selection-start="758" selection-end="758" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2850">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3471#3481#0" expanded="true" />
-            <element signature="e#4291#4301#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/utils/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/utils/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="0" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/utils/CompanyRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/utils/CompanyRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="31" selection-start="209" selection-end="209" vertical-scroll-proportion="0.32934132" vertical-offset="0" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/utils/Administration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="22" selection-start="410" selection-end="410" vertical-scroll-proportion="-3.4011977" vertical-offset="1974" max-vertical-offset="2475">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/utils/Predicate.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/utils/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="1" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab05/properties/Report.java">
+    <entry file="file://$PROJECT_DIR$/newcompany.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="74" selection-end="74" vertical-scroll-proportion="0.08219178" vertical-offset="0" max-vertical-offset="730">
+        <state line="205" column="54" selection-start="8225" selection-end="8230" vertical-scroll-proportion="0.4138929" vertical-offset="2789" max-vertical-offset="3480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/employees/Developer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="5" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/main/java/pl/agh/jtp/home01/properties/SalaryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="17" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/exceptions/CEOAlreadyHiredException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/main/java/pl/agh/jtp/home01/utils/CompanyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="9" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/employees/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/employees/CEO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/properties/Salary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="7" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/properties/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="42" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/properties/Report.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="53" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/employees/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/employees/TeamManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="1153" selection-end="1153" vertical-scroll-proportion="-5.6153846" vertical-offset="169" max-vertical-offset="1635">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/utils/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="69" selection-start="3405" selection-end="3405" vertical-scroll-proportion="-21.423077" vertical-offset="1033" max-vertical-offset="3195">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/employees/AbstractEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.0" vertical-offset="178" max-vertical-offset="885">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/utils/Administration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="38" selection-start="3882" selection-end="3882" vertical-scroll-proportion="0.0" vertical-offset="1652" max-vertical-offset="2190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/agh/jtp/home01/strategies/DispatchTaskByRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="36" selection-start="255" selection-end="255" vertical-scroll-proportion="0.17782427" vertical-offset="0" max-vertical-offset="1224">
           <folding />
         </state>
       </provider>
