@@ -80,17 +80,9 @@ public class TeamManager extends AbstractEmployee implements Manager, Iterable<E
         return this.numberOfEmployees;
     }
 
-    public void describeStaff() {
-        System.out.println(this.toString());
-        for (Employee e : employees) {
-            System.out.println(e.toString());
-        }
-        System.out.print("\n");
-    }
-
     @Override
     public String toString() {
-        return "Manager: " + getName() + " role: " + getRole();
+        return "Manager: " + getName() + " - managing team of:  " + getNumberOfEmployees();
     }
 
 

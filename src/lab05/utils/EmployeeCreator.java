@@ -9,6 +9,9 @@ import java.util.Random;
  * Created by Paulina on 23.04.2014.
  */
 
+/**
+ * Class can be used to create employees of several types.
+ */
 public class EmployeeCreator {
 
     private static String names[] = {"Adam", "Bella", "Charlie", "Donald", "Elisabeth", "Fabian", "Gabriel", "Hercules"};
@@ -20,18 +23,29 @@ public class EmployeeCreator {
     private static WorkStrategy workStrategies[] = {new DoAllWork(), new DoAlmostAllWork()};
     private static TaskDispatchStrategy dispatchStrategies[] = {new DispatchEqually(), new DispatchTaskByRole()};
 
-
+    /**
+     * Creates team manager with random characteristics.
+     * @return random team manager
+     */
     public static TeamManager createRandomManager () {
         return new TeamManager(createRandomName(), "Manager", createRandomManagerSalary(),
                 createWorkStrategy(), teamCardinality(), createDispatchStrategy());
     }
 
+    /**
+     * Creates developer with random characteristics.
+     * @return random developer
+     */
     public static Developer createRandomDeveloper () {
         return new Developer(createRandomName(), createRandomDeveloperJob(),
                 createRandomEmployeeSalary(),
                 createWorkStrategy());
     }
 
+    /**
+     * Creates tester with random characteristics.
+     * @return random tester
+     */
     public static Tester createRandomTester () {
         return new Tester(createRandomName(), createRandomTesterJob(),
                 createRandomEmployeeSalary(),

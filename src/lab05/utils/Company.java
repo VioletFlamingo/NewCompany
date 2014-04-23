@@ -14,29 +14,51 @@ import java.util.*;
 /**
  * Created by Paulina on 13.04.2014.
  */
+
+/**
+ * Is a type of data structure that allows to store employees. Always contains at least one element.
+ */
 public class Company extends AbstractCollection<Employee> implements Visitable, Collection<Employee>, Serializable {
 
     private CEO companyCEO;
     private List<Employee> employeeList;
 
+    /**
+     * Creates company consisting of one employee of type CEO given as parameter.
+     * @param head main team manager of type CEO
+     */
     public Company(CEO head) {
         employeeList = new ArrayList<Employee>();
         companyCEO = head;
         add(companyCEO);
     }
 
+    /**
+     * Gives information on number of employees in company.
+     * @return number of employees in company
+     */
     @Override
     public int size() {
         return employeeList.size();
     }
 
+    /**
+     * Passes forward visitor given as parameter to employees in the company.
+     * @param visitor - ??????
+     */
     @Override
     public void accept(Visitor visitor) {
         visitor.visit(companyCEO);
     }
 
 
-
+    /**
+     * Adds to the company given employee if there is a manager that is able to adopt him to his team.
+     * CEO can only adopt team managers.
+     * If there is no place for given team manager under other eam manager, he is assigned to CEO.
+     * @param employee person that is going to be hired of type Employee
+     * @return information whether adding of given employee finished with success
+     */
     @Override
     public boolean add(Employee employee) {
 
@@ -71,12 +93,23 @@ public class Company extends AbstractCollection<Employee> implements Visitable, 
     }
 
 
+    /**
+     * Gives an iterator on company employees in DFS order. Remove operation does not work.
+     * @return iterator on company employees
+     */
     @Override
     @NotNull
     public Iterator<Employee> iterator() {
         return new CompanyIterator();
     }
 
+
+    /**
+     * Gives an iterator on company employees that comply with condition given
+     * as parameter in DFS order.
+     * Remove operation does not work.
+     * @return iterator on company employees
+     */
     public Iterator<Employee> iterator(Predicate<Employee> predicate) {
         return new PredicateCompanyIterator(predicate);
     }

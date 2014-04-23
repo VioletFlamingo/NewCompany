@@ -7,16 +7,22 @@ import lab05.visitors.SalaryReportVisitor;
 import java.util.Random;
 import java.util.Scanner;
 
+/**
+ * Provides actions to administrate company.
+ */
 public class Administration {
 
     private static Company comp;
 
+    /**
+     * Provides main actions on given company.
+     * @param company company on which actions are going to be taken
+     */
     public static void takeActions(Company company) {
         comp = company;
         hireStaff(askForNumOfEmployees());
         administrate();
     }
-
 
     private static int askForNumOfEmployees() {
         Scanner input = new Scanner(System.in);
@@ -28,7 +34,14 @@ public class Administration {
         return number;
     }
 
+    /**
+     * Hires the number of employees given as parameter. If given negative number - hires no employees.
+     * @param people
+     */
     public static void hireStaff(int people) {
+        if (people<1) {
+            people=0;
+        }
         for (int i = 0; i < people; i++) {
             if (comp.add(generateEmployee())) {
                 System.out.println("Employee added");
@@ -36,6 +49,11 @@ public class Administration {
         }
     }
 
+    /**
+     * Shows on console possible actions that can be taken.
+     * Takes the action depending on number typed on console.
+     * If number typed is different than options given, exits program.
+     */
     public static void administrate() {
         boolean companyExist = true;
         while (companyExist) {
@@ -77,18 +95,28 @@ public class Administration {
         }
     }
 
+    /**
+     * Prints on console report regarding average salary within all of the employees in company.
+     */
     public static void getAverageSalary () {
         SalaryReportVisitor salaryReportVisitor = new SalaryReportVisitor();
         comp.accept(salaryReportVisitor);
         System.out.println(salaryReportVisitor.getReport());
     }
 
+    /**
+     * Prints on console descriptions of all of the employees in company.
+     */
     public static void getDescription() {
         DescriptionVisitor descriptionVisitor = new DescriptionVisitor();
         comp.accept(descriptionVisitor);
         System.out.println(descriptionVisitor.summation(comp));
     }
 
+    /**
+     * Generates employee of random type with random characteristics.
+     * @return random employee instance
+     */
     public static Employee generateEmployee() {
         Random rand = new Random();
         AbstractEmployee employee;

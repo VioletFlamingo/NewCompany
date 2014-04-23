@@ -4,18 +4,13 @@ import lab05.exceptions.CEOAlreadyHiredException;
 
 import java.io.IOException;
 
-public class Main {
-    public static void main(String[] args) throws IOException, ClassNotFoundException {
-        //Administration administration = new Administration(Integer.parseInt(args[0]));
-        //administration.administrate();
 
-        /*
-        try {
-            Company company = new Company(CEO.hireCEO());
-        } catch (CEOAlreadyHiredException e) {
-            e.printStackTrace();
-        }
-        */
+/**
+ * ???????
+ */
+public class Main {
+
+    public static void main(String[] args) {
         try {
             FileBasedCompanyRepository myCompany = new FileBasedCompanyRepository();
         } catch (IOException e) {
