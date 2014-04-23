@@ -15,9 +15,9 @@ import java.util.Scanner;
  * Manages company repository.
  */
 public class FileBasedCompanyRepository {
-    final CompanyRepository repository;
-    final Company company;
-    final File companyID;
+    private final CompanyRepository repository;
+    private final Company company;
+    private final File companyID;
 
     /**
      * Takes main actions connected with working on company.
@@ -28,7 +28,7 @@ public class FileBasedCompanyRepository {
      * @throws ClassNotFoundException
      * @throws CEOAlreadyHiredException
      */
-    public FileBasedCompanyRepository() throws IOException, ClassNotFoundException, CEOAlreadyHiredException {
+    public FileBasedCompanyRepository() throws IOException, ClassNotFoundException {
         repository = getCompanyRepository();
         companyID = askForFileName();
         if (companyID.exists()) {
@@ -51,7 +51,7 @@ public class FileBasedCompanyRepository {
      * Collects information on name of file from which company is about to be loaded.
      * @return file of .ser type from typed name
      */
-    public static File askForFileName() {
+    private static File askForFileName() {
         System.out.println("Enter file name:");
         Scanner scanner = new Scanner(System.in);
         return new File(scanner.nextLine() + ".ser");

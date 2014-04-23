@@ -19,8 +19,8 @@ public class Salary implements Serializable {
      * It is not allowed to store negative numbers. Every salary that is
      * tries to be created with at least one negative parameter is automatically
      * changed to 0,00.
-     * @param integerPart
-     * @param decimalPlace
+     * @param integerPart the part of the number that is before decimal point
+     * @param decimalPlace the part of number after decimal point
      */
     public Salary(int integerPart, int decimalPlace) {
         if (decimalPlace > 99) {

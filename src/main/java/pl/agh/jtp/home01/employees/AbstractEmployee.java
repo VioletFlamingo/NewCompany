@@ -9,8 +9,8 @@ import main.java.pl.agh.jtp.home01.visitors.Visitor;
 import java.io.Serializable;
 
 public abstract class AbstractEmployee implements Employee, Serializable {
-    private String name;
-    private String role;
+    private final String name;
+    private final String role;
     private Task task;
     private WorkStrategy strategy;
     private int hoursWorked;
@@ -38,8 +38,7 @@ public abstract class AbstractEmployee implements Employee, Serializable {
     }
 
     public Report getWork() {
-        Report report = new Report(hoursWorked);
-        return report;
+        return new Report(hoursWorked);
     }
 
     public void assign(Task task) {

@@ -27,10 +27,7 @@ public class TeamManager extends AbstractEmployee implements Manager, Iterable<E
     }
 
     public boolean canHire() {
-        if (numberOfPlaces <= numberOfEmployees) {
-            return false;
-        }
-        return true;
+        return numberOfPlaces > numberOfEmployees;
     }
 
 
@@ -39,9 +36,6 @@ public class TeamManager extends AbstractEmployee implements Manager, Iterable<E
         numberOfEmployees++;
     }
 
-    public void fire(int which) {
-
-    }
 
     @Override
     public void assign(Task task) {

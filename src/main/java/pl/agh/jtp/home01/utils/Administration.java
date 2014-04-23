@@ -36,9 +36,9 @@ public class Administration {
 
     /**
      * Hires the number of employees given as parameter. If given negative number - hires no employees.
-     * @param people
+     * @param people amount of people to be hired
      */
-    public static void hireStaff(int people) {
+    private static void hireStaff(int people) {
         if (people<1) {
             people=0;
         }
@@ -54,7 +54,7 @@ public class Administration {
      * Takes the action depending on number typed on console.
      * If number typed is different than options given, exits program.
      */
-    public static void administrate() {
+    private static void administrate() {
         boolean companyExist = true;
         while (companyExist) {
             System.out.println("Choose what do you want to do:");
@@ -93,7 +93,7 @@ public class Administration {
     /**
      * Prints on console report regarding average salary within all of the employees in company.
      */
-    public static void getAverageSalary () {
+    private static void getAverageSalary() {
         SalaryReportVisitor salaryReportVisitor = new SalaryReportVisitor();
         comp.accept(salaryReportVisitor);
         System.out.println(salaryReportVisitor.getReport());
@@ -102,7 +102,7 @@ public class Administration {
     /**
      * Prints on console descriptions of all of the employees in company.
      */
-    public static void getDescription() {
+    private static void getDescription() {
         DescriptionVisitor descriptionVisitor = new DescriptionVisitor();
         comp.accept(descriptionVisitor);
         System.out.println(descriptionVisitor.summation(comp));
@@ -112,7 +112,7 @@ public class Administration {
      * Generates employee of random type with random characteristics.
      * @return random employee instance
      */
-    public static Employee generateEmployee() {
+    private static Employee generateEmployee() {
         Random rand = new Random();
         AbstractEmployee employee;
         int whichRole = rand.nextInt(7);
@@ -130,7 +130,7 @@ public class Administration {
     /**
      * Gives new task to the company dependent on company size.
      */
-    public static void giveNewTasks() {
+    private static void giveNewTasks() {
         Random rand = new Random();
         Task task = new Task(rand.nextInt(comp.size()*100)+comp.size());
         comp.assignTaskToCompany(task);
@@ -139,7 +139,7 @@ public class Administration {
     /**
      * Outputs on console report from every employee in the company.
      */
-    public static void getTheReport() {
+    private static void getTheReport() {
         comp.getReport();
     }
 

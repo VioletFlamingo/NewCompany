@@ -14,14 +14,14 @@ import java.util.Random;
  */
 public class EmployeeCreator {
 
-    private static String names[] = {"Adam", "Bella", "Charlie", "Donald", "Elisabeth", "Fabian", "Gabriel", "Hercules"};
-    private static String surnames[] = {"Anderson", "Black", "Cooper", "Duck", "Elliot", "Fast", "Green", "Hood"};
-    private static String testerJobs[] = {"testing software", "testing latest program"};
-    private static String developerJobs[] = {"developing game", "fixing bugs"};
-    private static Salary managerSalary[] = {new Salary(19999, 99), new Salary(10000, 0), new Salary(9500, 0)};
-    private static Salary employeeSalary[] = {new Salary(9999, 99), new Salary(7000, 0), new Salary(4500, 0)};
-    private static WorkStrategy workStrategies[] = {new DoAllWork(), new DoAlmostAllWork()};
-    private static TaskDispatchStrategy dispatchStrategies[] = {new DispatchEqually(), new DispatchTaskByRole()};
+    private static final String[] names = {"Adam", "Bella", "Charlie", "Donald", "Elisabeth", "Fabian", "Gabriel", "Hercules"};
+    private static final String[] surnames = {"Anderson", "Black", "Cooper", "Duck", "Elliot", "Fast", "Green", "Hood"};
+    private static final String[] testerJobs = {"testing software", "testing latest program"};
+    private static final String[] developerJobs = {"developing game", "fixing bugs"};
+    private static final Salary[] managerSalary = {new Salary(19999, 99), new Salary(10000, 0), new Salary(9500, 0)};
+    private static final Salary[] employeeSalary = {new Salary(9999, 99), new Salary(7000, 0), new Salary(4500, 0)};
+    private static final WorkStrategy[] workStrategies = {new DoAllWork(), new DoAlmostAllWork()};
+    private static final TaskDispatchStrategy[] dispatchStrategies = {new DispatchEqually(), new DispatchTaskByRole()};
 
     /**
      * Creates team manager with random characteristics.

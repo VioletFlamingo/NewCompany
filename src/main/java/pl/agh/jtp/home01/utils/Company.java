@@ -108,11 +108,10 @@ public class Company extends AbstractCollection<Employee> implements Visitable, 
         return false;
     }
 
-    private boolean CheckIfNotAnotherCEO(Employee employee) throws CEOAlreadyHiredException {
+    private void CheckIfNotAnotherCEO(Employee employee) throws CEOAlreadyHiredException {
         if ((employee instanceof CEO)&&companyCEO!=null) {
             throw new CEOAlreadyHiredException();
         }
-        return false;
     }
 
 
